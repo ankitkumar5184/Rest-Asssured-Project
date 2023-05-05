@@ -1,0 +1,16 @@
+[
+  {
+    "Zip": "55305",
+    "Fips": "27053",
+    "HealthStatus": 3,
+    "Birthdate": "1940-02-10T00:00:00",
+    "SubsidyLevel": 4,
+    "Profile": {
+      "FirstName": "AnkurTestQA",
+      "LastName": "DesaiTestQA",
+      "EmailAddress": "desaiconnecturetest@gmail.com",
+      "Birthdate": "1980-12-22",
+      "MBI": "1AA1AA1AA11"
+    }
+  }
+]

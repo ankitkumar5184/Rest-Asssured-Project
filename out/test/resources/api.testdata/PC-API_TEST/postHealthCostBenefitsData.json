@@ -1,0 +1,100 @@
+{
+  "IsCostCalculate": true,
+  "IsUseDefaultValues": true,
+  "PlanYearForDefault": 2022,
+  "BenefitCategories": [{
+    "BenefitCategoryID": 4,
+    "BenefitCategoryName": "Inpatient Hospital Care",
+    "DefaultAnnualOccurrences": 0,
+    "DefaultAnnualDuration": 0
+  },
+    {
+      "BenefitCategoryID": 5,
+      "BenefitCategoryName": "Inpatient Mental Health Care",
+      "DefaultAnnualOccurrences": 0,
+      "DefaultAnnualDuration": 0
+    },
+    {
+      "BenefitCategoryID": 6,
+      "BenefitCategoryName": "Skilled Nursing Facility (SNF)",
+      "DefaultAnnualOccurrences": 0,
+      "DefaultAnnualDuration": 0
+    },
+    {
+      "BenefitCategoryID": 7,
+      "BenefitCategoryName": "Home Health Care",
+      "DefaultAnnualOccurrences": 0
+    },
+    {
+      "BenefitCategoryID": 9,
+      "BenefitCategoryName": "Doctor Office Visits",
+      "DefaultAnnualOccurrences": 2
+    },
+    {
+      "BenefitCategoryID": 10,
+      "BenefitCategoryName": "Chiropractic Services",
+      "DefaultAnnualOccurrences": 1
+    },
+    {
+      "BenefitCategoryID": 12,
+      "BenefitCategoryName": "Outpatient Mental Health Care",
+      "DefaultAnnualOccurrences": 0
+    },
+    {
+      "BenefitCategoryID": 13,
+      "BenefitCategoryName": "Outpatient Substance Abuse",
+      "DefaultAnnualOccurrences": 0
+    },
+    {
+      "BenefitCategoryID": 14,
+      "BenefitCategoryName": "Outpatient Services/Surgery",
+      "DefaultAnnualOccurrences": 2
+    },
+    {
+      "BenefitCategoryID": 15,
+      "BenefitCategoryName": "Ambulance Services",
+      "DefaultAnnualOccurrences": 0
+    },
+    {
+      "BenefitCategoryID": 16,
+      "BenefitCategoryName": "Emergency Care",
+      "DefaultAnnualOccurrences": 0
+    },
+    {
+      "BenefitCategoryID": 17,
+      "BenefitCategoryName": "Urgently Needed Care",
+      "DefaultAnnualOccurrences": 0
+    },
+    {
+      "BenefitCategoryID": 19,
+      "BenefitCategoryName": "Durable Medical Equipment",
+      "DefaultAnnualOccurrences": 0
+    },
+    {
+      "BenefitCategoryID": 20,
+      "BenefitCategoryName": "Prosthetic Devices",
+      "DefaultAnnualOccurrences": 0
+    },
+    {
+      "BenefitCategoryID": 21,
+      "BenefitCategoryName": "Diabetes Supplies and Services",
+      "DefaultAnnualOccurrences": 0
+    },
+    {
+      "BenefitCategoryID": 22,
+      "BenefitCategoryName": "Diagnostic Tests, Lab and Radiology Services, and X-Rays",
+      "DefaultAnnualOccurrences": 5
+    },
+    {
+      "BenefitCategoryID": 40,
+      "BenefitCategoryName": "Doctor Specialty Visit",
+      "DefaultAnnualOccurrences": 6
+    },
+    {
+      "BenefitCategoryID": 41,
+      "BenefitCategoryName": "Ambulatory Surgery Center",
+
+      "DefaultAnnualOccurrences": 0
+    }
+  ]
+}

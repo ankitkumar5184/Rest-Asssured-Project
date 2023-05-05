@@ -1,0 +1,28 @@
+<Plans>
+    <MedicarePlans>
+        <Plan>
+            <ContractID>S5921</ContractID>
+            <PlanID>837</PlanID>
+            <PlanYear>2023</PlanYear>
+            <SegmentID>02511002E</SegmentID>
+        </Plan>
+        <Plan>
+            <ContractID>H2001</ContractID>
+            <PlanID>816</PlanID>
+            <PlanYear>2023</PlanYear>
+            <SegmentID>12775</SegmentID>
+        </Plan>
+        <Plan>
+            <ContractID>H2001</ContractID>
+            <PlanID>827</PlanID>
+            <PlanYear>2023</PlanYear>
+            <SegmentID>12309</SegmentID>
+        </Plan>
+        <Plan>
+            <ContractID>H0609</ContractID>
+            <PlanID>809</PlanID>
+            <PlanYear>2023</PlanYear>
+            <SegmentID>060502WTU</SegmentID>
+        </Plan>
+    </MedicarePlans>
+</Plans>

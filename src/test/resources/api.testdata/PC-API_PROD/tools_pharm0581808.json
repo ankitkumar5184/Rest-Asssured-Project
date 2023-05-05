@@ -1,0 +1,16 @@
+{
+	"Dosages": [
+		{
+			"NDC": "00527260237",
+			"MetricQuantity": "30",
+			"DaysOfSupply": "30"
+		}
+	],
+	"Pharmacy": {
+		"PharmacyIDType": "1",
+		"PharmacyID": "0581808",
+		"IsMailOrder": "false"
+	},
+	"Zip": "90210",
+	"Fips": "06037"
+}

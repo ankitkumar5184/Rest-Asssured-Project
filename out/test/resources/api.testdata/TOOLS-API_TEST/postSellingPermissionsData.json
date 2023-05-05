@@ -1,0 +1,16 @@
+[
+  {
+    "CarrierID": 6,
+    "States": [
+      "AL",
+      "CA"
+    ],
+    "PlanTypes": [
+      4,
+      1,
+      2
+    ],
+    "PlanYear": "2022",
+    "AgentProducerID": "BMagentProducerID"
+  }
+]

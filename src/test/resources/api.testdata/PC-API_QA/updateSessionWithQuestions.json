@@ -1,0 +1,105 @@
+{
+  "Profile": {
+    "FirstName": "Jared",
+    "LastName": "Doe",
+    "EmailAddress": "jdoe@example.com"
+  },
+  "HealthStatus": "3",
+  "Pharmacies": [
+    {
+      "PharmacyIDType": 0,
+      "PharmacyRecordID": 1,
+      "PharmacyID": "16NDM"
+    },
+    {
+      "PharmacyIDType": 0,
+      "PharmacyRecordID": 2,
+      "PharmacyID": "KT8VS"
+    }
+  ],
+  "Dosages": [
+    {
+      "NDC": "16729013401",
+      "MetricQuantity": 30,
+      "DaysOfSupply": "30"
+    },
+    {
+      "NDC": "65862073260",
+      "MetricQuantity": 30,
+      "DaysOfSupply": "30"
+    },
+    {
+      "NDC": "00603155416",
+      "MetricQuantity": 1800,
+      "DaysOfSupply": "30"
+    },
+    {
+      "NDC": "50111091601",
+      "MetricQuantity": 60,
+      "DaysOfSupply": "30"
+    },
+    {
+      "NDC": "13668010401",
+      "MetricQuantity": 30,
+      "DaysOfSupply": "30"
+    },
+    {
+      "NDC": "00093092810",
+      "MetricQuantity": 30,
+      "DaysOfSupply": "30"
+    },
+    {
+      "NDC": "69452020720",
+      "MetricQuantity": 30,
+      "DaysOfSupply": "30"
+    },
+    {
+      "NDC": "00378001805",
+      "MetricQuantity": 30,
+      "DaysOfSupply": "30"
+    },
+    {
+      "NDC": "00093171301",
+      "MetricQuantity": 30,
+      "DaysOfSupply": "30"
+    }
+  ],
+  "Questions": [
+    {
+      "QuestionID": 1,
+      "Value": "Male"
+    },
+    {
+      "QuestionID": 4,
+      "Value": "Non-Smoker"
+    },
+    {
+      "QuestionID": 6,
+      "Value": "No"
+    },
+    {
+      "QuestionID": 9,
+      "Value": "2021-10-01"
+    },
+    {
+      "QuestionID": 14,
+      "Value": "43719"
+    },
+    {
+      "QuestionID": 15,
+      "Value": "39013"
+    },
+    {
+      "QuestionID": 16,
+      "Value": "1950-12-11"
+    },
+    {
+      "QuestionID": 26,
+      "Value": "2021-10-01"
+    },
+    {
+      "QuestionID": 17,
+      "Value": "2021-10-01"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+[{
+		"HealthStatus": "3",
+		"Birthdate": "1955-02-10",
+		"SubsidyLevel": "4",
+		"Zip": "55401",
+		"Fips": "27053",
+		"Dosages": [
+			{
+			"NDC": "45963067711",
+			"MetricQuantity": "90",
+			"DaysOfSupply": "90"
+			}
+		],
+		"Pharmacies": [{
+				"PharmacyIDType": "1",
+				"PharmacyID": "2418209",
+				"IsMailOrder": "false"
+			}
+		],
+
+		"Profile": {
+			"Birthdate": "1960-02-10",
+			"FirstName": "drxtest123",
+			"LastName": "drxtest123"
+		},
+
+		"reqid": "5"
+	}
+]

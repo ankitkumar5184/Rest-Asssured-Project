@@ -1,0 +1,43 @@
+[
+  {
+    "reqid": "5",
+    "SessionID": "PMR11WQ1A",
+    "SSOValue": "28f2ac54-1bb6-47f7-aa5d-8fa903e2c902",
+    "Expires": "2023-04-20T20:32:28.4354157Z",
+    "Status": "Updated",
+    "Dosages": [
+      {
+        "DosageRecordID": 36447521,
+        "DosageID": "1N1220L6T0",
+        "SubmittedNDC": "33261085630",
+        "NDC": "45963067711",
+        "MetricQuantity": 30.0,
+        "UserQuantity": 30.0,
+        "DaysOfSupply": 30,
+        "LabelName": "metoprolol succinate er TAB 100MG ER",
+        "DrugID": 16572,
+        "DrugName": "metoprolol succinate er",
+        "DrugTypeID": 2,
+        "DrugType": "Generic",
+        "ChemicalName": "Metoprolol Succinate",
+        "PillImage": "https://contentserver.destinationrx.com/ContentServer/Images/Medispan/ACT06770.JPG"
+      }
+    ],
+    "Pharmacies": [
+      {
+        "PharmacyRecordID": 9834195,
+        "PharmacyID": "JKD2B",
+        "PharmacyNPI": "1841271756",
+        "PharmacyNABP": "0326911",
+        "IsMailOrder": false,
+        "Name": "CVS Caremark",
+        "Address1": "4755 S 44th Pl",
+        "Address2": "",
+        "City": "Phoenix",
+        "Zip": "85040",
+        "State": "AZ",
+        "PharmacyPhone": "6024315000"
+      }
+    ]
+  }
+]

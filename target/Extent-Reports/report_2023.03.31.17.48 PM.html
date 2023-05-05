@@ -1,0 +1,1125 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Extent Framework</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">API-HtmlTestReport</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Mar 31, 2023 17:48:24</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Mar 31, 2023 17:48:24</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Mar 31, 2023 17:49:51</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>9</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>9</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>35</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"testCheckLimitedPlanTypesInCaForBrokerCase":49.021,"testCheckLimitedPlanTypesInCaForBrokerCaseInvalidSession":4.609,"testCheckLimitedPlanTypesInCaForBrokerCaseBlankSession":4.176,"testEnrollForCaForbiddenPlanType1":4.907,"testEnrollForCaForbiddenPlanType1InvalidSession":4.94,"testEnrollForCaForbiddenPlanType1BlankSession":4.492,"testEnrollForCaForbiddenPlanType2":5.142,"testEnrollForCaForbiddenPlanType2InvalidSession":4.258,"testEnrollForCaForbiddenPlanType2BlankSession":3.782
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>Author</td>
+<td>Regression</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 9,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 35,
+failEvents: 0,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 0
+};
+</script><div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCheckLimitedPlanTypesInCaForBrokerCase</p>
+            <p class="text-sm">
+              <span>5:48:26 PM</span> / <span>00:00:49:021</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCheckLimitedPlanTypesInCaForBrokerCase</h5>
+<span class='badge badge-success'>03.31.2023 5:48:26 PM</span>
+<span class='badge badge-danger'>03.31.2023 5:49:15 PM</span>
+<span class='badge badge-default'>00:00:49:021</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:49:15 PM</td>
+        <td>
+          Request URL is :- https://qa.drxwebservices.com/APIPlanCompare/v1/Session/MR17917A/Plans?zip=90010&fips=06037&year=2023&BLUserName=TestUser12793&showDefault=true&ShowDefaultPharmacyPricing=true&ShowPharmacy=true&ShowFormulary=true
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:49:15 PM</td>
+        <td>
+          Request URL is :- https://qa.drxwebservices.com/APIPlanCompare/v1/Session/MR17917A/Plans?zip=90010&fips=06037&year=2023&BLUserName=TestUser12793&showDefault=true&ShowDefaultPharmacyPricing=true&ShowPharmacy=true&ShowFormulary=true
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:49:15 PM</td>
+        <td>
+          testCheckLimitedPlanTypesInCaForBrokerCase is passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCheckLimitedPlanTypesInCaForBrokerCaseInvalidSession</p>
+            <p class="text-sm">
+              <span>5:49:15 PM</span> / <span>00:00:04:609</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCheckLimitedPlanTypesInCaForBrokerCaseInvalidSession</h5>
+<span class='badge badge-success'>03.31.2023 5:49:15 PM</span>
+<span class='badge badge-danger'>03.31.2023 5:49:19 PM</span>
+<span class='badge badge-default'>00:00:04:609</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:49:19 PM</td>
+        <td>
+          Request URL is :- https://qa.drxwebservices.com/APIPlanCompare/v1/Session/invalid/Plans?zip=90010&fips=06037&year=2023&BLUserName=TestUser12793&showDefault=true&ShowDefaultPharmacyPricing=true&ShowPharmacy=true&ShowFormulary=true
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:49:19 PM</td>
+        <td>
+          Request URL is :- https://qa.drxwebservices.com/APIPlanCompare/v1/Session/invalid/Plans?zip=90010&fips=06037&year=2023&BLUserName=TestUser12793&showDefault=true&ShowDefaultPharmacyPricing=true&ShowPharmacy=true&ShowFormulary=true
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:49:19 PM</td>
+        <td>
+          Get Session Member Search Response:- {
+    "Message": "ResumeSession failed.",
+    "ErrorCode": "InternalServerError"
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:49:19 PM</td>
+        <td>
+          testCheckLimitedPlanTypesInCaForBrokerCaseInvalidSession is passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testCheckLimitedPlanTypesInCaForBrokerCaseBlankSession</p>
+            <p class="text-sm">
+              <span>5:49:20 PM</span> / <span>00:00:04:176</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testCheckLimitedPlanTypesInCaForBrokerCaseBlankSession</h5>
+<span class='badge badge-success'>03.31.2023 5:49:20 PM</span>
+<span class='badge badge-danger'>03.31.2023 5:49:24 PM</span>
+<span class='badge badge-default'>00:00:04:176</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:49:23 PM</td>
+        <td>
+          Request URL is :- https://qa.drxwebservices.com/APIPlanCompare/v1/Session//Plans?zip=90010&fips=06037&year=2023&BLUserName=TestUser12793&showDefault=true&ShowDefaultPharmacyPricing=true&ShowPharmacy=true&ShowFormulary=true
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:49:23 PM</td>
+        <td>
+          Request URL is :- https://qa.drxwebservices.com/APIPlanCompare/v1/Session//Plans?zip=90010&fips=06037&year=2023&BLUserName=TestUser12793&showDefault=true&ShowDefaultPharmacyPricing=true&ShowPharmacy=true&ShowFormulary=true
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:49:24 PM</td>
+        <td>
+          Get Session Member Search Response:- {
+    "Message": "ResumeSession failed.",
+    "ErrorCode": "InternalServerError"
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:49:24 PM</td>
+        <td>
+          testCheckLimitedPlanTypesInCaForBrokerCaseBlankSession is passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testEnrollForCaForbiddenPlanType1</p>
+            <p class="text-sm">
+              <span>5:49:24 PM</span> / <span>00:00:04:907</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testEnrollForCaForbiddenPlanType1</h5>
+<span class='badge badge-success'>03.31.2023 5:49:24 PM</span>
+<span class='badge badge-danger'>03.31.2023 5:49:29 PM</span>
+<span class='badge badge-default'>00:00:04:907</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:49:28 PM</td>
+        <td>
+          Request URL is :- https://qa.drxwebservices.com/APIPlanCompare/v1/Session/MR17917A/Plans/1JNT0RVBVY/Enroll
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:49:28 PM</td>
+        <td>
+          Request body is :- <EnrollmentSettings xmlns="">
+    <Custom1>Custom_1</Custom1>
+    <Custom2>Custom_2</Custom2>
+    <Custom3>Custom_3</Custom3>
+    <Custom4>Custom_4</Custom4>
+    <Custom5>Custom_5</Custom5>
+    <CustomInternalXml>
+        <StoringData>
+            <PrimaryCarePhysician>VALUE</PrimaryCarePhysician>
+        </StoringData>
+    </CustomInternalXml>
+
+    <EnrollDisplay>
+        <EnrollDisplay>
+            <KeyMessage>AgentMessage</KeyMessage>
+            <ValueMessage>AgentFirst AgentLast 817-555-1212</ValueMessage>
+        </EnrollDisplay>
+    </EnrollDisplay>
+
+    <Enrollee>
+        <Address1>Address Line 1</Address1>
+        <Address2>Address Line 2</Address2>
+        <City>RegCity</City>
+        <CountyFIPS>06037</CountyFIPS>
+        <DateOfBirth>1922-07-02</DateOfBirth>
+        <EffectiveDate>2019-04-01</EffectiveDate>
+        <Email>enrollDrop@connectmail.cnxrdev.com</Email>
+        <FirstName>drxtest123</FirstName>
+        <Gender>M</Gender>
+        <LastName>drxtest123</LastName>
+        <MiddleInitial>R</MiddleInitial>
+        <PhoneNumber>1111111111</PhoneNumber>
+        <State>CA</State>
+        <Title>Mr</Title>
+        <Zip>90010</Zip>
+    </Enrollee>
+    <Enroller>
+        <AID>Affiliate</AID>
+        <BrokerID>TESTSQS</BrokerID>
+        <ChannelID>Channel</ChannelID>
+        <PartnerID>SQS167</PartnerID>
+        <UserType>all</UserType>
+    </Enroller>
+
+
+    <Language>en-US</Language>
+</EnrollmentSettings>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:49:28 PM</td>
+        <td>
+          Test enroll for CA forbidden plan type 1 response body :- {
+    "Url": "https://blam5.qa.destinationrx.com/PC/2023/",
+    "Parameters": "qs=aI7zegVjuMJTZWYURXgrWNNdFAdBBixWQ0/3JZYNtuDSzvx0qlWqPrKTE+1j/zDNCcN7o7JwqEUb7tzoaiZd7dLD2vdvnEqRHJU9ijMrGttLn/OJCjNuzRopwkPnjgtD&sig=kxZt/qhAmJSf9V1TjBcSsPyNSi+rZ+JqbH2XfXhC87v9Itm/zKZgy0oVt/AR5SmI1VNHf4K3hJ+Fs8lsfb+HGQ4zwNfKxfHmLP2vdjht1pF+gLcq7wUMlUrPMwkbY6xeSj1ogkskiYm6NYhWo3hFKweJvTEGnDZQ1GAAdCKnBCg=&sigid=40&bitlen=256&haKeyVer=1&tpKeyVer=1&tagName=Enrollment&SSOValue=2df401dd-004a-453f-9d5e-5fa07afb61eb&sendToBeneficiary=false",
+    "EnrollActionType": 1,
+    "InternalPlanID": 476541,
+    "FormID": "3980094c-057c-4b5e-9852-6e22717509b9",
+    "Method": "GET"
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:49:29 PM</td>
+        <td>
+          testEnrollForCaForbiddenPlanType1 is passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testEnrollForCaForbiddenPlanType1InvalidSession</p>
+            <p class="text-sm">
+              <span>5:49:29 PM</span> / <span>00:00:04:940</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testEnrollForCaForbiddenPlanType1InvalidSession</h5>
+<span class='badge badge-success'>03.31.2023 5:49:29 PM</span>
+<span class='badge badge-danger'>03.31.2023 5:49:34 PM</span>
+<span class='badge badge-default'>00:00:04:940</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:49:33 PM</td>
+        <td>
+          Request URL is :- https://qa.drxwebservices.com/APIPlanCompare/v1/Session/invalid/Plans/1JNT0RVBVY/Enroll
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:49:33 PM</td>
+        <td>
+          Request body is :- <EnrollmentSettings xmlns="">
+    <Custom1>Custom_1</Custom1>
+    <Custom2>Custom_2</Custom2>
+    <Custom3>Custom_3</Custom3>
+    <Custom4>Custom_4</Custom4>
+    <Custom5>Custom_5</Custom5>
+    <CustomInternalXml>
+        <StoringData>
+            <PrimaryCarePhysician>VALUE</PrimaryCarePhysician>
+        </StoringData>
+    </CustomInternalXml>
+
+    <EnrollDisplay>
+        <EnrollDisplay>
+            <KeyMessage>AgentMessage</KeyMessage>
+            <ValueMessage>AgentFirst AgentLast 817-555-1212</ValueMessage>
+        </EnrollDisplay>
+    </EnrollDisplay>
+
+    <Enrollee>
+        <Address1>Address Line 1</Address1>
+        <Address2>Address Line 2</Address2>
+        <City>RegCity</City>
+        <CountyFIPS>06037</CountyFIPS>
+        <DateOfBirth>1922-07-02</DateOfBirth>
+        <EffectiveDate>2019-04-01</EffectiveDate>
+        <Email>enrollDrop@connectmail.cnxrdev.com</Email>
+        <FirstName>drxtest123</FirstName>
+        <Gender>M</Gender>
+        <LastName>drxtest123</LastName>
+        <MiddleInitial>R</MiddleInitial>
+        <PhoneNumber>1111111111</PhoneNumber>
+        <State>CA</State>
+        <Title>Mr</Title>
+        <Zip>90010</Zip>
+    </Enrollee>
+    <Enroller>
+        <AID>Affiliate</AID>
+        <BrokerID>TESTSQS</BrokerID>
+        <ChannelID>Channel</ChannelID>
+        <PartnerID>SQS167</PartnerID>
+        <UserType>all</UserType>
+    </Enroller>
+
+
+    <Language>en-US</Language>
+</EnrollmentSettings>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:49:34 PM</td>
+        <td>
+          Get Session Member Search Response:- {
+    "Message": "ResumeSession failed.",
+    "ErrorCode": "InternalServerError"
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:49:34 PM</td>
+        <td>
+          testEnrollForCaForbiddenPlanType1InvalidSession is passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="6"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testEnrollForCaForbiddenPlanType1BlankSession</p>
+            <p class="text-sm">
+              <span>5:49:34 PM</span> / <span>00:00:04:492</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testEnrollForCaForbiddenPlanType1BlankSession</h5>
+<span class='badge badge-success'>03.31.2023 5:49:34 PM</span>
+<span class='badge badge-danger'>03.31.2023 5:49:38 PM</span>
+<span class='badge badge-default'>00:00:04:492</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:49:37 PM</td>
+        <td>
+          Request URL is :- https://qa.drxwebservices.com/APIPlanCompare/v1/Session//Plans/1JNT0RVBVY/Enroll
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:49:37 PM</td>
+        <td>
+          Request body is :- <EnrollmentSettings xmlns="">
+    <Custom1>Custom_1</Custom1>
+    <Custom2>Custom_2</Custom2>
+    <Custom3>Custom_3</Custom3>
+    <Custom4>Custom_4</Custom4>
+    <Custom5>Custom_5</Custom5>
+    <CustomInternalXml>
+        <StoringData>
+            <PrimaryCarePhysician>VALUE</PrimaryCarePhysician>
+        </StoringData>
+    </CustomInternalXml>
+
+    <EnrollDisplay>
+        <EnrollDisplay>
+            <KeyMessage>AgentMessage</KeyMessage>
+            <ValueMessage>AgentFirst AgentLast 817-555-1212</ValueMessage>
+        </EnrollDisplay>
+    </EnrollDisplay>
+
+    <Enrollee>
+        <Address1>Address Line 1</Address1>
+        <Address2>Address Line 2</Address2>
+        <City>RegCity</City>
+        <CountyFIPS>06037</CountyFIPS>
+        <DateOfBirth>1922-07-02</DateOfBirth>
+        <EffectiveDate>2019-04-01</EffectiveDate>
+        <Email>enrollDrop@connectmail.cnxrdev.com</Email>
+        <FirstName>drxtest123</FirstName>
+        <Gender>M</Gender>
+        <LastName>drxtest123</LastName>
+        <MiddleInitial>R</MiddleInitial>
+        <PhoneNumber>1111111111</PhoneNumber>
+        <State>CA</State>
+        <Title>Mr</Title>
+        <Zip>90010</Zip>
+    </Enrollee>
+    <Enroller>
+        <AID>Affiliate</AID>
+        <BrokerID>TESTSQS</BrokerID>
+        <ChannelID>Channel</ChannelID>
+        <PartnerID>SQS167</PartnerID>
+        <UserType>all</UserType>
+    </Enroller>
+
+
+    <Language>en-US</Language>
+</EnrollmentSettings>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:49:38 PM</td>
+        <td>
+          Get Session Member Search Response:- <html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+    <title>404 - File or directory not found.</title>
+    <style type="text/css">
+&lt;!--
+body{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}
+fieldset{padding:0 15px 10px 15px;} 
+h1{font-size:2.4em;margin:0;color:#FFF;}
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.2em;margin:10px 0 0 0;color:#000000;} 
+#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS", Verdana, sans-serif;color:#FFF;
+background-color:#555555;}
+#content{margin:0 0 0 2%;position:relative;}
+.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}
+--&gt;
+</style>
+  </head>
+  <body>
+    <div id="header">
+      <h1>Server Error</h1>
+    </div>
+    <div id="content">
+      <div class="content-container">
+        <fieldset>
+          <h2>404 - File or directory not found.</h2>
+          <h3>The resource you are looking for might have been removed, had its name changed, or is temporarily unavailable.</h3>
+        </fieldset>
+      </div>
+    </div>
+  </body>
+</html>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:49:38 PM</td>
+        <td>
+          testEnrollForCaForbiddenPlanType1BlankSession is passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="7"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testEnrollForCaForbiddenPlanType2</p>
+            <p class="text-sm">
+              <span>5:49:38 PM</span> / <span>00:00:05:142</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testEnrollForCaForbiddenPlanType2</h5>
+<span class='badge badge-success'>03.31.2023 5:49:38 PM</span>
+<span class='badge badge-danger'>03.31.2023 5:49:43 PM</span>
+<span class='badge badge-default'>00:00:05:142</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:49:43 PM</td>
+        <td>
+          Request URL is :- https://qa.drxwebservices.com/APIPlanCompare/v1/Session/MR17917A/Plans/1K8BPSRKTR/Enroll
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:49:43 PM</td>
+        <td>
+          Request body is :- <EnrollmentSettings xmlns="">
+    <Custom1>Custom_1</Custom1>
+    <Custom2>Custom_2</Custom2>
+    <Custom3>Custom_3</Custom3>
+    <Custom4>Custom_4</Custom4>
+    <Custom5>Custom_5</Custom5>
+    <CustomInternalXml>
+        <StoringData>
+            <PrimaryCarePhysician>VALUE</PrimaryCarePhysician>
+        </StoringData>
+    </CustomInternalXml>
+
+    <EnrollDisplay>
+        <EnrollDisplay>
+            <KeyMessage>AgentMessage</KeyMessage>
+            <ValueMessage>AgentFirst AgentLast 817-555-1212</ValueMessage>
+        </EnrollDisplay>
+    </EnrollDisplay>
+
+    <Enrollee>
+        <Address1>Address Line 1</Address1>
+        <Address2>Address Line 2</Address2>
+        <City>RegCity</City>
+        <CountyFIPS>06037</CountyFIPS>
+        <DateOfBirth>1922-07-02</DateOfBirth>
+        <EffectiveDate>2019-04-01</EffectiveDate>
+        <Email>enrollDrop@connectmail.cnxrdev.com</Email>
+        <FirstName>drxtest123</FirstName>
+        <Gender>M</Gender>
+        <LastName>drxtest123</LastName>
+        <MiddleInitial>R</MiddleInitial>
+        <PhoneNumber>1111111111</PhoneNumber>
+        <State>CA</State>
+        <Title>Mr</Title>
+        <Zip>90010</Zip>
+    </Enrollee>
+    <Enroller>
+        <AID>Affiliate</AID>
+        <BrokerID>TESTSQS</BrokerID>
+        <ChannelID>Channel</ChannelID>
+        <PartnerID>SQS167</PartnerID>
+        <UserType>all</UserType>
+    </Enroller>
+
+
+    <Language>en-US</Language>
+</EnrollmentSettings>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:49:43 PM</td>
+        <td>
+          Get Session Member Search Response:- {
+    "Url": "https://blam5.qa.destinationrx.com/PC/2023/",
+    "Parameters": "qs=ISAOBNuLXCQgLqSk4Ws4vTOBRGLhNJ8S81xzlwSbesMShe1YtxtOFaTdWdSK2OtLKcuxIwDZt4G5ishIR94PWwg+2UmWn48ULE1Gw2mMK/Uxjd3frKw/B5gk7qQHJo6b&sig=dTNKkyv40klxmGLwwHfVEomUNzkoTgs8LFPvj/FV6gCDUGOIJa18iONSXF25YnzubvXzhZ/jYD163Je2dNcw7xt/N16Du7tNJehedZ3bBwVdWNyv98fV9aO0AyJTi/kg2iJeHu8uUaNLqvt00h3h99F26mq3qS3Iu0IJ0lPVczY=&sigid=40&bitlen=256&haKeyVer=1&tpKeyVer=1&tagName=Enrollment&SSOValue=2df401dd-004a-453f-9d5e-5fa07afb61eb&sendToBeneficiary=false",
+    "EnrollActionType": 1,
+    "InternalPlanID": 476612,
+    "FormID": "3980094c-057c-4b5e-9852-6e22717509b9",
+    "Method": "GET"
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:49:43 PM</td>
+        <td>
+          testEnrollForCaForbiddenPlanType2 is passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="8"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testEnrollForCaForbiddenPlanType2InvalidSession</p>
+            <p class="text-sm">
+              <span>5:49:43 PM</span> / <span>00:00:04:258</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testEnrollForCaForbiddenPlanType2InvalidSession</h5>
+<span class='badge badge-success'>03.31.2023 5:49:43 PM</span>
+<span class='badge badge-danger'>03.31.2023 5:49:48 PM</span>
+<span class='badge badge-default'>00:00:04:258</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:49:47 PM</td>
+        <td>
+          Request URL is :- https://qa.drxwebservices.com/APIPlanCompare/v1/Session/invalid/Plans/1K8BPSRKTR/Enroll
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:49:47 PM</td>
+        <td>
+          Request body is :- <EnrollmentSettings xmlns="">
+    <Custom1>Custom_1</Custom1>
+    <Custom2>Custom_2</Custom2>
+    <Custom3>Custom_3</Custom3>
+    <Custom4>Custom_4</Custom4>
+    <Custom5>Custom_5</Custom5>
+    <CustomInternalXml>
+        <StoringData>
+            <PrimaryCarePhysician>VALUE</PrimaryCarePhysician>
+        </StoringData>
+    </CustomInternalXml>
+
+    <EnrollDisplay>
+        <EnrollDisplay>
+            <KeyMessage>AgentMessage</KeyMessage>
+            <ValueMessage>AgentFirst AgentLast 817-555-1212</ValueMessage>
+        </EnrollDisplay>
+    </EnrollDisplay>
+
+    <Enrollee>
+        <Address1>Address Line 1</Address1>
+        <Address2>Address Line 2</Address2>
+        <City>RegCity</City>
+        <CountyFIPS>06037</CountyFIPS>
+        <DateOfBirth>1922-07-02</DateOfBirth>
+        <EffectiveDate>2019-04-01</EffectiveDate>
+        <Email>enrollDrop@connectmail.cnxrdev.com</Email>
+        <FirstName>drxtest123</FirstName>
+        <Gender>M</Gender>
+        <LastName>drxtest123</LastName>
+        <MiddleInitial>R</MiddleInitial>
+        <PhoneNumber>1111111111</PhoneNumber>
+        <State>CA</State>
+        <Title>Mr</Title>
+        <Zip>90010</Zip>
+    </Enrollee>
+    <Enroller>
+        <AID>Affiliate</AID>
+        <BrokerID>TESTSQS</BrokerID>
+        <ChannelID>Channel</ChannelID>
+        <PartnerID>SQS167</PartnerID>
+        <UserType>all</UserType>
+    </Enroller>
+
+
+    <Language>en-US</Language>
+</EnrollmentSettings>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:49:48 PM</td>
+        <td>
+          Get Session Member Search Response:- {
+    "Message": "ResumeSession failed.",
+    "ErrorCode": "InternalServerError"
+}
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:49:48 PM</td>
+        <td>
+          testEnrollForCaForbiddenPlanType2InvalidSession is passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="9"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">testEnrollForCaForbiddenPlanType2BlankSession</p>
+            <p class="text-sm">
+              <span>5:49:48 PM</span> / <span>00:00:03:782</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">testEnrollForCaForbiddenPlanType2BlankSession</h5>
+<span class='badge badge-success'>03.31.2023 5:49:48 PM</span>
+<span class='badge badge-danger'>03.31.2023 5:49:51 PM</span>
+<span class='badge badge-default'>00:00:03:782</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:49:51 PM</td>
+        <td>
+          Request URL is :- https://qa.drxwebservices.com/APIPlanCompare/v1/Session//Plans/1K8BPSRKTR/Enroll
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:49:51 PM</td>
+        <td>
+          Request body is :- <EnrollmentSettings xmlns="">
+    <Custom1>Custom_1</Custom1>
+    <Custom2>Custom_2</Custom2>
+    <Custom3>Custom_3</Custom3>
+    <Custom4>Custom_4</Custom4>
+    <Custom5>Custom_5</Custom5>
+    <CustomInternalXml>
+        <StoringData>
+            <PrimaryCarePhysician>VALUE</PrimaryCarePhysician>
+        </StoringData>
+    </CustomInternalXml>
+
+    <EnrollDisplay>
+        <EnrollDisplay>
+            <KeyMessage>AgentMessage</KeyMessage>
+            <ValueMessage>AgentFirst AgentLast 817-555-1212</ValueMessage>
+        </EnrollDisplay>
+    </EnrollDisplay>
+
+    <Enrollee>
+        <Address1>Address Line 1</Address1>
+        <Address2>Address Line 2</Address2>
+        <City>RegCity</City>
+        <CountyFIPS>06037</CountyFIPS>
+        <DateOfBirth>1922-07-02</DateOfBirth>
+        <EffectiveDate>2019-04-01</EffectiveDate>
+        <Email>enrollDrop@connectmail.cnxrdev.com</Email>
+        <FirstName>drxtest123</FirstName>
+        <Gender>M</Gender>
+        <LastName>drxtest123</LastName>
+        <MiddleInitial>R</MiddleInitial>
+        <PhoneNumber>1111111111</PhoneNumber>
+        <State>CA</State>
+        <Title>Mr</Title>
+        <Zip>90010</Zip>
+    </Enrollee>
+    <Enroller>
+        <AID>Affiliate</AID>
+        <BrokerID>TESTSQS</BrokerID>
+        <ChannelID>Channel</ChannelID>
+        <PartnerID>SQS167</PartnerID>
+        <UserType>all</UserType>
+    </Enroller>
+
+
+    <Language>en-US</Language>
+</EnrollmentSettings>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:49:51 PM</td>
+        <td>
+          Get Session Member Search Response:- <html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+    <title>404 - File or directory not found.</title>
+    <style type="text/css">
+&lt;!--
+body{margin:0;font-size:.7em;font-family:Verdana, Arial, Helvetica, sans-serif;background:#EEEEEE;}
+fieldset{padding:0 15px 10px 15px;} 
+h1{font-size:2.4em;margin:0;color:#FFF;}
+h2{font-size:1.7em;margin:0;color:#CC0000;} 
+h3{font-size:1.2em;margin:10px 0 0 0;color:#000000;} 
+#header{width:96%;margin:0 0 0 0;padding:6px 2% 6px 2%;font-family:"trebuchet MS", Verdana, sans-serif;color:#FFF;
+background-color:#555555;}
+#content{margin:0 0 0 2%;position:relative;}
+.content-container{background:#FFF;width:96%;margin-top:8px;padding:10px;position:relative;}
+--&gt;
+</style>
+  </head>
+  <body>
+    <div id="header">
+      <h1>Server Error</h1>
+    </div>
+    <div id="content">
+      <div class="content-container">
+        <fieldset>
+          <h2>404 - File or directory not found.</h2>
+          <h3>The resource you are looking for might have been removed, had its name changed, or is temporarily unavailable.</h3>
+        </fieldset>
+      </div>
+    </div>
+  </body>
+</html>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:49:51 PM</td>
+        <td>
+          testEnrollForCaForbiddenPlanType2BlankSession is passed
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

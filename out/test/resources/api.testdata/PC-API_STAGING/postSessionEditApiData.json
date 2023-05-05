@@ -1,0 +1,68 @@
+{
+  "Zip": "90011",
+  "SubsidyLevel": 4,
+  "Fips": "06037",
+  "HealthStatus": 3,
+  "Birthdate": "1960-01-01T00:00:00",
+  "SSOValue": "c4c026d4-8d8c-452d-826c-de467678a71e",
+  "Profile": {
+    "MBI": "1AA1AA1AA11",
+    "FirstName": "AnkurQA",
+    "PartAEffectiveDate": "2022-05-01T00:00:00",
+    "LastName": "DesaiQA",
+    "PartBEffectiveDate": "2022-09-01T00:00:00"
+  },
+  "Dosages": [
+    {
+      "PillImage": "https:\/\/contentserver.destinationrx.com\/ContentServer\/Images\/Medispan\/AVT00600.JPG",
+      "GenericLabelName": "furosemide TAB 40MG",
+      "DrugName": "Lasix",
+      "LabelName": "Lasix TAB 40MG",
+      "DrugType": "Brand",
+      "NDC": "30698006001",
+      "MetricQuantity": 30.0,
+      "DrugTypeID": 1,
+      "DaysOfSupply": 30,
+      "DosageRecordID": 1067178,
+      "UserQuantity": 30.0,
+      "ChemicalName": "Furosemide",
+      "DosageID": "1TR6WLLZNV",
+      "DrugID": 13084,
+      "GenericDosageID": "0JLQR3RV0Q",
+      "GenericDrugID": 12239
+    },
+    {
+      "PillImage": "https:\/\/contentserver.destinationrx.com\/ContentServer\/Images\/Medispan\/GSO01551.JPG",
+      "GenericLabelName": "atorvastatin calcium TAB 10MG",
+      "DrugName": "Lipitor",
+      "LabelName": "Lipitor TAB 10MG",
+      "DrugType": "Brand",
+      "NDC": "00071015523",
+      "MetricQuantity": 30.0,
+      "DrugTypeID": 1,
+      "DaysOfSupply": 30,
+      "DosageRecordID": 1067177,
+      "UserQuantity": 30.0,
+      "ChemicalName": "Atorvastatin Calcium",
+      "DosageID": "1N1V3S593B",
+      "DrugID": 13158,
+      "GenericDosageID": "0JBCNTL5BC",
+      "GenericDrugID": 46497
+    },
+    {
+      "PillImage": "https:\/\/contentserver.destinationrx.com\/ContentServer\/Images\/Medispan\/BKR08180.JPG",
+      "DrugName": "propranolol hcl",
+      "LabelName": "propranolol hcl CAP 80MG ER",
+      "DrugType": "Generic",
+      "NDC": "51991081801",
+      "MetricQuantity": 30.0,
+      "DrugTypeID": 2,
+      "DaysOfSupply": 30,
+      "DosageRecordID": 1067179,
+      "UserQuantity": 30.0,
+      "ChemicalName": "Propranolol HCl",
+      "DosageID": "1M5YSNYYY9",
+      "DrugID": 14748
+    }
+  ]
+}

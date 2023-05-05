@@ -1,0 +1,27 @@
+[
+  {
+    "Zip":"90010",
+    "Fips":"06037",
+    "Profile":{
+      "FirstName":"drxtest123",
+      "MiddleInitial":"B",
+      "GenderID":2,
+      "LastName":"drxtest123",
+      "EmailAddress":"memberDrop@connectmail.cnxrdev.com",
+      "Birthdate":"1944-02-02",
+      "HomePhone":"123456789",
+      "MemberAddress":{
+        "Address1":"101 Maple Street",
+        "Address2":"#302",
+        "City":"Los Angeles",
+        "State":"CA",
+        "Zip":"90010"
+      },
+      "CustomField1":"1ABC",
+      "CustomField2":"2ABC",
+      "CustomField3":"3ABC",
+      "CustomField4":"4ABC",
+      "CustomField5":"5ABC"
+    }
+  }
+]

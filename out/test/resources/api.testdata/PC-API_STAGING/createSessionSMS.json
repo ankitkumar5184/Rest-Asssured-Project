@@ -1,0 +1,33 @@
+[
+  {
+    "HealthStatus": "3",
+    "Birthdate": "1940-02-10",
+    "SubsidyLevel": "4",
+    "Zip": "90010",
+    "Fips": "06037",
+    "Dosages": [
+      {
+        "DaysOfSupply": "30",
+        "MetricQuantity": "30",
+        "NDC": "33261085630"
+      }
+    ]
+  ,
+    "Pharmacies": [
+
+      {
+        "PharmacyID": "JKD2B",
+        "IsMailOrder": "false",
+        "PharmacyIDType": "0"
+      }
+    ],
+    "Profile": {
+      "Birthdate": "1940-12-22",
+      "FirstName": "drxtest123",
+      "LastName": "drxtest123"
+    },
+
+
+    "reqid": "5"
+  }
+]

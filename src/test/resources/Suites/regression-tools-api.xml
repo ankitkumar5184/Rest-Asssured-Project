@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="classes" thread-count="2">
+    <listeners>
+        <listener class-name="api.base.reporter.Listeners"/>
+    </listeners>
+
+    <test name="ProviderTest, verifying Provider api end-points">
+        <classes>
+            <class name="api.tests.test_suite.tools.ProvidersTest"/>
+        </classes>
+    </test>
+
+    <test name="AgenciesTest, verifying Agencies api end-points">
+        <classes>
+            <class name="api.tests.test_suite.tools.AgenciesTest"/>
+        </classes>
+    </test>
+
+    <test name="Pharmacies, Verify Pharmacies API End-Points">
+        <classes>
+            <class name="api.tests.test_suite.tools.PharmaciesTest"/>
+        </classes>
+    </test>
+
+    <test name="PlansTest, verifying PlansTest api end-points">
+        <classes>
+            <class name="api.tests.test_suite.tools.PlansTest"/>
+        </classes>
+    </test>
+
+    <test name="DrugsTest, verifying Drugs api end-points">
+        <classes>
+            <class name="api.tests.test_suite.tools.DrugsTest"/>
+        </classes>
+    </test>
+
+    <test name="CountiesTest, verifying CountiesTest api end-points">
+        <classes>
+            <class name="api.tests.test_suite.tools.CountiesTest"/>
+        </classes>
+    </test>
+
+    <test name="AgentsTest, Verify Agents API End-Points">
+        <classes>
+            <class name="api.tests.test_suite.tools.AgentsTest"/>
+        </classes>
+    </test>
+
+    <test name="CountiesSpecTest, verifying CountiesSpecTest api end-points">
+        <classes>
+            <class name="api.tests.test_suite.tools.CountiesSpecTest"/>
+        </classes>
+    </test>
+
+    <test name="PlansSpecTest, verifying PlansSpecTest api end-points">
+        <classes>
+            <class name="api.tests.test_suite.tools.PlansSpecTest"/>
+        </classes>
+    </test>
+
+    <test name="DrugsSpecTest, verifying DrugsSpecTest Api End-Points">
+        <classes>
+            <class name="api.tests.test_suite.tools.DrugsSpecTest"/>
+        </classes>
+    </test>
+
+    <test name="PricingSpecTest, verifying PricingSpecTest api end-points">
+        <classes>
+            <class name="api.tests.test_suite.tools.PricingSpecTest"/>
+        </classes>
+    </test>
+
+    <test name="PharmaciesSpecTest, verifying PharmaciesSpecTest api end-points">
+        <classes>
+            <class name="api.tests.test_suite.tools.PharmaciesSpecTest"/>
+        </classes>
+    </test>
+</suite>

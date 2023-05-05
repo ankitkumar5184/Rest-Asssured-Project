@@ -1,0 +1,127 @@
+[
+  {
+    "reqid": "5",
+    "SessionID": "",
+    "SSOName": "",
+    "SSOValue": "",
+    "BLUserName": "SSOAgent999",
+    "Expires": "2099-01-01",
+    "Zip": "90010",
+    "Fips": "06037",
+    "EffectiveDate": "2022-09-01",
+    "HealthStatus": 3,
+    "Birthdate": "1960-01-01",
+    "CRMID": "",
+    "SubsidyLevel": 1,
+    "SubsidyPercent": 0,
+    "UserName": "",
+    "Password": "",
+    "Status": "",
+    "StatusReason": "",
+    "Profile": {
+      "FirstName": "AnkurTestQA",
+      "MiddleInitial": "D",
+      "LastName": "DesaiTestQA",
+      "EmailAddress": "desaiconnecturetest@gmail.com",
+      "MemberAddress": {
+        "Address1": "1234 Any Street",
+        "Address2": "Suite 100QA",
+        "City": "Los Angeles",
+        "State": "CA",
+        "Zip": "90010",
+        "County": "Los Angeles"
+      },
+      "Birthdate": "1960-01-01",
+      "HomePhone": "2625633771",
+      "WorkPhone": "",
+      "CellPhone": "",
+      "GenderID": 1,
+      "MaritalStatusID": 0,
+      "UserName": "",
+      "Password": "",
+      "ModifiedPassword": "",
+      "CRMID": "",
+      "CustomField1": "",
+      "CustomField2": "",
+      "CustomField3": "",
+      "CustomField4": "",
+      "CustomField5": "",
+      "PartAEffectiveDate": "2020-05-01",
+      "PartBEffectiveDate": "2020-09-01",
+      "MBI": "1AA1AA1AA11",
+      "PIN": ""
+    },
+    "Dosages": [
+      {
+        "NDC": "00071015523",
+        "MetricQuantity": 30,
+        "DaysOfSupply": 30
+      },
+      {
+        "NDC": "30698006001",
+        "MetricQuantity": 30,
+        "DaysOfSupply": 30
+      },
+      {
+        "NDC": "51991081801",
+        "MetricQuantity": 30,
+        "DaysOfSupply": 30
+      }
+    ],
+    "Pharmacies": [
+      {
+        "PharmacyIDType": 0,
+        "PharmacyID": "K3RC2",
+        "IsMailOrder": false
+      },
+      {
+        "PharmacyIDType": 1,
+        "PharmacyID": "3684847",
+        "IsMailOrder": false
+      },
+      {
+        "PharmacyIDType": 2,
+        "PharmacyID": "1770598823",
+        "IsMailOrder": false
+      }
+    ],
+    "Questions": [
+      {
+        "QuestionID": 1,
+        "Value": "Male"
+      },
+      {
+        "QuestionID": 4,
+        "Value": "Smoker"
+      },
+      {
+        "QuestionID": 6,
+        "Value": "No"
+      },
+      {
+        "QuestionID": 9,
+        "Value": "2022-09-01"
+      },
+      {
+        "QuestionID": 14,
+        "Value": "90010"
+      },
+      {
+        "QuestionID": 15,
+        "Value": "06037"
+      },
+      {
+        "QuestionID": 16,
+        "Value": "1960-01-01"
+      },
+      {
+        "QuestionID": 17,
+        "Value": "2020-05-01"
+      },
+      {
+        "QuestionID": 26,
+        "Value": "2020-09-01"
+      }
+    ]
+  }
+]

@@ -1,0 +1,139 @@
+[
+	{
+		"HealthStatus": "3",
+		"Birthdate": "01-01-1960",
+		"EffectiveDate": "01-01-2023",
+		"SubsidyLevel": "4",
+		"Zip": "90010",
+		"Fips": "06037",
+		"Questions": [{
+			"QuestionID": 1,
+			"Name": "Gender",
+			"Text": "What is your gender?",
+			"AnswerType": "String",
+			"AnswerList": [
+				"Male",
+				"Female"
+			],
+			"Tooltip": "",
+			"Value": "Male"
+		},
+			{
+				"QuestionID": 4,
+				"Name": "Tobacco",
+				"Text": "Do you smoke?",
+				"AnswerType": "String",
+				"AnswerList": [
+					"Non-Smoker",
+					"Smoker"
+				],
+				"Tooltip": "",
+				"Value": "Non-Smoker"
+			},
+			{
+				"QuestionID": 6,
+				"Name": "Household",
+				"Text": "Will you also be signing up your spouse?",
+				"AnswerType": "String",
+				"AnswerList": [
+					"Yes",
+					"No"
+				],
+				"Tooltip": "",
+				"Value": "No"
+			},
+			{
+				"QuestionID": 9,
+				"Name": "EffectiveDate",
+				"Text": "When would you like coverage to begin?",
+				"AnswerType": "DateTime",
+				"Tooltip": "",
+				"Value": "1/1/2023 00:00:00 AM"
+			},
+			{
+				"QuestionID": 10,
+				"Name": "GuaranteedIssue",
+				"Text": "Are you under Guaranteed Issue?",
+				"AnswerType": "String",
+				"AnswerList": [
+					"Yes",
+					"No"
+				],
+				"Tooltip": "",
+				"Value": "No"
+			},
+			{
+				"QuestionID": 14,
+				"Name": "ZipCode",
+				"Text": "What is your zipcode?",
+				"AnswerType": "String",
+				"Tooltip": "",
+				"Value": "90010"
+			},
+			{
+				"QuestionID": 15,
+				"Name": "County_FIPS",
+				"Text": "What is your county?",
+				"AnswerType": "String",
+				"Tooltip": "",
+				"Value": "06037"
+			},
+			{
+				"QuestionID": 16,
+				"Name": "DateOfBirth",
+				"Text": "What is your date of birth?",
+				"AnswerType": "DateTime",
+				"Tooltip": "",
+				"Value": "01/01/1960 00:00:00 AM"
+			},
+			{
+				"QuestionID": 17,
+				"Name": "PartBEffectiveDate",
+				"Text": "What is your Part B Effective Date?",
+				"AnswerType": "DateTime",
+				"Tooltip": "",
+				"Value": "05/01/2020 00:00:00 AM"
+			},
+			{
+				"QuestionID": 26,
+				"Name": "PartAEffectiveDate",
+				"Text": "What is your Part A Effective Date?",
+				"AnswerType": "DateTime",
+				"Value": "09/01/2020 00:00:00 AM"
+			}
+		],
+		"Dosages": [{
+			"NDC": "00071015523",
+			"MetricQuantity": 30,
+			"DaysOfSupply": 30
+		},
+			{
+				"NDC": "30698006001",
+				"MetricQuantity": 30,
+				"DaysOfSupply": 30
+			},
+			{
+				"NDC": "51991081801",
+				"MetricQuantity": 30,
+				"DaysOfSupply": 30
+			}
+		],
+		"Pharmacies": [{
+			"PharmacyIDType": 0,
+			"PharmacyID": "K3RC2",
+			"IsMailOrder": false
+		},
+			{
+				"PharmacyIDType": 1,
+				"PharmacyID": "3684847",
+				"IsMailOrder": false
+			},
+			{
+				"PharmacyIDType": 2,
+				"PharmacyID": "1770598823",
+				"IsMailOrder": false
+			}
+		],
+		"reqid": "5"
+	}
+]

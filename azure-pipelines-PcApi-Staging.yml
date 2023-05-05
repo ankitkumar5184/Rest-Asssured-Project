@@ -1,0 +1,102 @@
+# Gradle - Comment test
+# Build your Java project and run tests with Gradle using a Gradle wrapper script.
+# Add steps that analyze code, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/java
+
+pool:
+  Agent.Name: 'AWSVSQAA701'
+
+variables:
+  - group: PC_API_Staging
+
+steps:
+  - task: replacetokens@5
+    inputs:
+      rootDirectory: '$(System.DefaultWorkingDirectory)/src/test/java/api/tests/config/'
+      targetFiles: '**/*env.properties'
+      encoding: 'auto'
+      tokenPattern: 'default'
+      writeBOM: true
+      actionOnMissing: 'warn'
+      keepToken: false
+      actionOnNoFiles: 'continue'
+      enableTransforms: false
+      enableRecursion: false
+      useLegacyPattern: false
+      enableTelemetry: true
+
+  - task: PowerShell@2
+    displayName: 'Capture start time'
+    inputs:
+      targetType: 'inline'
+      script: |
+        $startTime = Get-Date -Format "MM/dd/yyy HH:mm:ss"
+        Write-Host "##vso[task.setvariable variable=startTime]$startTime"
+
+  - task: Gradle@2
+    inputs:
+      gradleWrapperFile: 'gradlew'
+      javaHomeOption: 'JDKVersion'
+      gradleOptions: '-Xmx12288m'
+      publishJUnitResults: false
+      testResultsFiles: '**/TEST-*.xml'
+      tasks: 'clean pcApiTests --rerun-tasks --stacktrace'
+
+  - task: PublishTestResults@2
+    inputs:
+      testResultsFormat: 'JUnit'
+      testResultsFiles: '**/TEST-*.xml'
+      mergeTestResults: true
+      testRunTitle: 'Staging - PC API Tests'
+
+  - task: PublishBuildArtifacts@1
+    inputs:
+      ArtifactName: 'Extent-Reports'
+      PathToPublish: './target/Extent-Reports/'
+
+  - task: PowerShell@2
+    displayName: 'Capture end time'
+    inputs:
+      targetType: 'inline'
+      script: |
+        $endTime = Get-Date -Format "MM/dd/yyy HH:mm:ss"
+        Write-Host "##vso[task.setvariable variable=endTime]$endTime"
+
+  - powershell: |
+      $latestReport = (dir ./target/Extent-Reports/report_*.html | sort-object name -Descending | select-object -first 1).FullName
+      Write-Host "##vso[task.setvariable variable=Attachment;]$latestReport"
+      $myDate=$(Get-Date -format MM/dd/yyy)
+      Write-Host "##vso[task.setvariable variable=MyDate]$myDate"
+
+  - task: ArchiveFiles@2
+    inputs:
+      rootFolderOrFile: '$(Attachment)'
+      includeRootFolder: false
+      archiveType: 'zip'
+      archiveFile: '$(Build.ArtifactStagingDirectory)/ExtentReport.zip'
+
+  - powershell: |
+      $archivePath="$(Build.ArtifactStagingDirectory)/ExtentReport.zip"
+      Write-Host "##vso[task.setvariable variable=ReportPath]$archivePath"
+
+  - task: SendEmail@1
+    inputs:
+      To: 'drx-qa@drx.com'
+      From: 'tfs@drx.com'
+      Subject: '$(EnvironmentToExecute) | PC API Test Execution - $(MyDate)'
+      Body: |
+        Pipeline: $(System.TeamProject)/$(System.DefinitionName)
+        Run ID: $(Build.BuildId)
+        Environment : $(EnvironmentToExecute)
+        Trigger: $(Build.Reason)
+        Build Start : $(startTime)
+        Build End : $(endTime)
+        Test Summary is accessible at: [$(System.CollectionUri)$(System.TeamProject)/_build/results?buildId=$(Build.BuildId)&view=ms.vss-test-web.build-test-results-tab]
+      BodyAsHtml: false
+      AddAttachment: true
+      SmtpPort: '587'
+      Attachment: '$(ReportPath)'
+      SmtpServer: 'email-smtp.us-west-2.amazonaws.com'
+      SmtpUsername: 'AKIAJAT7KSOSSWSAZYNA'
+      SmtpPassword: 'AjmqhRdf+iYSBHsqCT9UgAyHE273X9RPmoU31PeRt/XH'
+      UseSSL: true

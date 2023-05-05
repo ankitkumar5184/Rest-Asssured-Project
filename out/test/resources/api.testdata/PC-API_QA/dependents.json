@@ -1,0 +1,26 @@
+[
+  {
+    "Birthdate": "1967-07-07T00:00:00",
+    "HealthStatus": 1,
+    "SubsidyLevel": 4,
+    "SubsidyPercent": 3,
+    "Relationship": 13,
+    "Profile": {
+      "FirstName": "depfn2",
+      "LastName": "depln2",
+      "Birthdate": "1967-01-01T00:00:00"
+    }
+  },
+  {
+    "Birthdate": "1968-08-08T00:00:00",
+    "HealthStatus": 2,
+    "SubsidyLevel": 4,
+    "SubsidyPercent": 3,
+    "Relationship": 2,
+    "Profile": {
+      "FirstName": "depfn3",
+      "LastName": "depln3",
+      "Birthdate": "1968-01-01T00:00:00"
+    }
+  }
+]

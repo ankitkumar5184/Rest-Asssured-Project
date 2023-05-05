@@ -1,0 +1,10 @@
+{
+   "QA":{
+    "auth": "https://qa-auth.drxwebservices.com",
+    "service": "https://qa.drxwebservices.com"
+  },
+  "STAGE": {
+    "auth": "https://stage-auth.drxwebservices.com",
+    "service": "https://staging.drxwebservices.com"
+  }
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "Age": 35,
+    "MemberID": 111,
+    "Salary": 25000,
+    "UsesTobacco": false
+  },
+  {
+    "Age": 32,
+    "MemberID": 222,
+    "Salary": 18000,
+    "UsesTobacco": true
+  },
+  {
+    "Age": 12,
+    "MemberID": 333,
+    "Salary": 0,
+    "UsesTobacco": false
+  }
+]

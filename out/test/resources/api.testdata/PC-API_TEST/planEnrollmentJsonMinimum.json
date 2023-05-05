@@ -1,0 +1,14 @@
+{
+  "Custom1": "FAEtokfUXjPurUwkE7Qv1MFHw9Ji0xu2KiNYoLgFW9WTLa0Wqb",
+  "Custom2": "unregistered-1d57f287-a8dd-40c9-817a-6cff99115711",
+  "CustomInternal": {
+    "StoringData": {}
+  },
+  "Enroller": {
+    "PartnerID": "AIS620"
+  },
+  "Enrollee": {
+    "Zip": "90010",
+    "CountyFIPS": "06037"
+  }
+}

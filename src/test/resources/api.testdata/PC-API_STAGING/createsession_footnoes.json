@@ -1,0 +1,34 @@
+[{
+		"Birthdate": "1960-01-01",
+		"Profile":
+		{
+			"FirstName": "Targ",
+			"LastName": "Chanwell",
+			"EmailAddress": "bcm@example.com",
+			"Birthdate": "1944-04-17"
+		},
+		"Dosages": [{
+				"NDC": "00074379902",
+				"MetricQuantity": 2,
+				"DaysOfSupply": 30
+			},
+			{
+				"NDC": "54092047612",
+				"MetricQuantity": 60,
+				"DaysOfSupply": 30
+			},
+			{
+				"NDC": "00002751001",
+				"MetricQuantity": 1,
+				"DaysOfSupply": 30
+			}
+		],
+		"Pharmacies": [
+			{
+				"PharmacyIDType": 1,
+				"PharmacyID": "0590631",
+				"IsMailOrder": false
+			}
+		]
+	}
+]

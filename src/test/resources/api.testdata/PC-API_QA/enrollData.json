@@ -1,0 +1,42 @@
+{
+  "Language": "en-US",
+  "Custom1": "",
+  "Custom2": "",
+  "Custom3": "",
+  "Custom4": "",
+  "Custom5": "",
+  "CustomInternalXml": [],
+  "CustomInternal": {},
+  "Enroller": {
+    "PartnerID": "SQS167",
+    "BrokerID": "TestSQS",
+    "AID": "Affiliate",
+    "ChannelID": "Channel",
+    "UserType": "all",
+    "BLUserName": "sritest2020"
+  },
+  "Enrollee": {
+    "Title": "",
+    "FirstName": "",
+    "MiddleInitial": "",
+    "LastName": "",
+    "Address1": "",
+    "Address2": "",
+    "City": "",
+    "State": "CA",
+    "Zip": "90010",
+    "CountyFIPS": "06037",
+    "DateOfBirth": "",
+    "Gender": "",
+    "PhoneNumber": "",
+    "Email": "desaiconnecturetest@gmail.com",
+    "MBI": "",
+    "EffectiveDate": ""
+  },
+  "EnrollDisplay": [
+    {
+      "KeyMessage": "AgentMessage0",
+      "ValueMessage0": "QATest DrxTest"
+    }
+  ]
+}

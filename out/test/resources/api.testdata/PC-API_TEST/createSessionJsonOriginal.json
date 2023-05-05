@@ -1,0 +1,36 @@
+[
+  {
+    "HealthStatus": "3",
+    "Birthdate": "1953-03-08",
+    "SubsidyLevel": "4",
+    "Zip": "92129",
+    "Fips": "06073",
+    "Dosages": [
+      {
+        "DaysOfSupply": "30",
+        "MetricQuantity": "30",
+        "NDC": "00074328813"
+      },
+      {
+        "DaysOfSupply": "30",
+        "MetricQuantity": "30",
+        "NDC": "00186504054"
+      }
+    ]
+  ,
+    "Pharmacies": [
+      {
+        "PharmacyID": "V652P",
+        "IsMailOrder": "false",
+        "PharmacyIDType": "0"
+      }
+    ],
+    "Profile": {
+      "Birthdate": "1940-12-22",
+      "FirstName": "firstname",
+      "LastName": "lastname"
+    },
+
+    "reqid": "5"
+  }
+]

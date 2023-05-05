@@ -1,0 +1,66 @@
+[{
+		"HealthStatus": "3",
+		"Birthdate": "1955-02-10",
+		"SubsidyLevel": "4",
+		"Zip": "90210",
+		"Fips": "06037",
+		"Dosages": [
+			{
+				"DaysOfSupply": "30",
+				"MetricQuantity": "30",
+				"NDC": "53746067001"
+			}, {
+				"DaysOfSupply": "30",
+				"MetricQuantity": "30",
+				"NDC": "67877019805"
+			}, {
+				"DaysOfSupply": "30",
+				"MetricQuantity": "30",
+				"NDC": "68382002310"
+			}, {
+				"DaysOfSupply": "30",
+				"MetricQuantity": "60",
+				"NDC": "43547028910"
+			}, {
+				"DaysOfSupply": "30",
+				"MetricQuantity": "60",
+				"NDC": "65862014505"
+			}, {
+				"DaysOfSupply": "30",
+				"MetricQuantity": "30",
+				"NDC": "65862035705"
+			}, {
+				"DaysOfSupply": "30",
+				"MetricQuantity": "60",
+				"NDC": "57237001760"
+			}, {
+				"DaysOfSupply": "30",
+				"MetricQuantity": "30",
+				"NDC": "63304062510"
+			}, {
+				"DaysOfSupply": "30",
+				"MetricQuantity": "90.0",
+				"NDC": "69097094312"
+			}, {
+				"DaysOfSupply": "30",
+				"MetricQuantity": "10.0",
+				"NDC": "00002751001"
+			}
+
+		],
+		"Pharmacies": [{
+				"PharmacyID": "M9Q77",
+				"IsMailOrder": "false",
+				"PharmacyIDType": "0"
+			}
+		],
+
+		"Profile": {
+			"Birthdate": "1960-02-10",
+			"FirstName": "drxtest123",
+			"LastName": "drxtest123"
+		},
+
+		"reqid": "5"
+	}
+]

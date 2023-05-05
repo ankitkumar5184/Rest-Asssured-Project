@@ -1,0 +1,57 @@
+[
+      {
+      "QuestionID": 1,
+      "Value": "Male"
+   },
+      {
+      "QuestionID": 4,
+      "Value": "Non-Smoker"
+   },
+     
+       {
+      "QuestionID": 5,
+      "Value": "Monthly"
+   },
+     
+       {
+      "QuestionID": 6,
+      "Value": "No"
+   },
+              
+        {
+      "QuestionID": 9,
+      "Value": "2019-05-01"
+   },
+       {
+      "QuestionID": 10,
+      "Value": "No"
+   },
+                     {
+      "QuestionID": 11,
+      "Value": "72"
+   },
+                     {
+      "QuestionID": 12,
+      "Value": "250"
+   },
+               {
+      "QuestionID": 14,
+      "Value": "48023"
+   },
+      {
+      "QuestionID": 15,
+      "Value": "26147"
+   },
+      {
+      "QuestionID": 16,
+      "Value": "05/05/1954"
+   } ,
+      {
+      "QuestionID": 17,
+      "Value": "04/04/2019"
+   } ,
+      {
+      "QuestionID": 26,
+      "Value": "2020-01-01"
+   }
+]

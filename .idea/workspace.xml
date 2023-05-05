@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="74c94b3f-9d17-4f7a-9450-52005731545c" name="Changes" comment="Refactor changes" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="in-house-ATM-nextgen" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature_ankit_test_env_1" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2NHGdavC6kFYZtd7TLWFQw3wunM" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Git.Branch.Popup.ShowAllRemotes&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/AnkitKumar/Desktop/Connecture Refactor Folder/ConnectureDRX_QA_NextGen/src/test/resources/api.testdata/PC-API_PROD&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\AnkitKumar\Desktop\Connecture Refactor Folder\ConnectureDRX_QA_NextGen\src\test\resources\api.testdata\PC-API_PROD" />
+      <recent name="C:\Users\AnkitKumar\Desktop\Connecture Refactor Folder\ConnectureDRX_QA_NextGen\src\test\resources\api.testdata\PC-API_STAGING" />
+      <recent name="C:\Users\AnkitKumar\Desktop\Connecture Refactor Folder\ConnectureDRX_QA_NextGen\src\test\resources\api.testdata\PC-API_QA" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Users/AnkitKumar/Desktop/Connecture Refactor Folder/ConnectureDRX_QA_NextGen/src/test/resources/Suites/regression-pc-api.xml">
+    <configuration name="C:/Users/AnkitKumar/Desktop/Connecture Refactor Folder/ConnectureDRX_QA_NextGen/src/test/resources/Suites/regression-pc-api.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="in-house-ATM-nextgen.test" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/Suites/regression-pc-api.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetPlansForSessionQuoterOnlyBrokerSpecTest.testCheckLimitedPlanTypesInCaForBrokerCaseInvalidSession" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="in-house-ATM-nextgen.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.tests.test_suite.plancompare.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api.tests.test_suite.plancompare" />
+      <option name="MAIN_CLASS_NAME" value="api.tests.test_suite.plancompare.GetPlansForSessionQuoterOnlyBrokerSpecTest" />
+      <option name="METHOD_NAME" value="testCheckLimitedPlanTypesInCaForBrokerCaseInvalidSession" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MedicarePlansAetna2020SpecTest.testVerifyGetPlanDetailsWithoutEffectiveDateWithInvalidSessionId" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="in-house-ATM-nextgen.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.tests.test_suite.plancompare.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api.tests.test_suite.plancompare" />
+      <option name="MAIN_CLASS_NAME" value="api.tests.test_suite.plancompare.MedicarePlansAetna2020SpecTest" />
+      <option name="METHOD_NAME" value="testVerifyGetPlanDetailsWithoutEffectiveDateWithInvalidSessionId" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RiderCombinationsSpecTest.testEnrollWithInvalidRiderCombinationsAndSeeError" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="in-house-ATM-nextgen.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.tests.test_suite.plancompare.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api.tests.test_suite.plancompare" />
+      <option name="MAIN_CLASS_NAME" value="api.tests.test_suite.plancompare.RiderCombinationsSpecTest" />
+      <option name="METHOD_NAME" value="testEnrollWithInvalidRiderCombinationsAndSeeError" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Users/AnkitKumar/Desktop/Connecture Refactor Folder/ConnectureDRX_QA_NextGen/src/test/resources/Suites/regression-pc-api.xml" />
+        <item itemvalue="TestNG.GetPlansForSessionQuoterOnlyBrokerSpecTest.testCheckLimitedPlanTypesInCaForBrokerCaseInvalidSession" />
+        <item itemvalue="TestNG.RiderCombinationsSpecTest.testEnrollWithInvalidRiderCombinationsAndSeeError" />
+        <item itemvalue="TestNG.MedicarePlansAetna2020SpecTest.testVerifyGetPlanDetailsWithoutEffectiveDateWithInvalidSessionId" />
+        <item itemvalue="TestNG.C:/Users/AnkitKumar/Desktop/Connecture Refactor Folder/ConnectureDRX_QA_NextGen/src/test/resources/Suites/regression-pc-api.xml" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="74c94b3f-9d17-4f7a-9450-52005731545c" name="Changes" comment="" />
+      <created>1679313681767</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679313681767</updated>
+      <workItem from="1679313683174" duration="9274000" />
+      <workItem from="1679388816104" duration="2119000" />
+      <workItem from="1679392018789" duration="15222000" />
+      <workItem from="1679474811381" duration="16010000" />
+      <workItem from="1679559627230" duration="21938000" />
+      <workItem from="1679644155804" duration="22299000" />
+      <workItem from="1679903543718" duration="25922000" />
+      <workItem from="1679988343507" duration="25370000" />
+      <workItem from="1680074380030" duration="359000" />
+      <workItem from="1680074766765" duration="11917000" />
+      <workItem from="1680163827069" duration="11096000" />
+      <workItem from="1680246794025" duration="17715000" />
+      <workItem from="1680517660638" duration="3041000" />
+      <workItem from="1680595100101" duration="11039000" />
+      <workItem from="1680619317095" duration="1250000" />
+      <workItem from="1680702800106" duration="1788000" />
+      <workItem from="1681120779712" duration="2000" />
+      <workItem from="1681211038498" duration="429000" />
+      <workItem from="1681316491032" duration="6000" />
+      <workItem from="1681457436458" duration="3000" />
+      <workItem from="1681803816709" duration="19000" />
+      <workItem from="1682435400671" duration="1247000" />
+    </task>
+    <task id="LOCAL-00193" summary="Refactor changes">
+      <created>1680192831033</created>
+      <option name="number" value="00193" />
+      <option name="presentableId" value="LOCAL-00193" />
+      <option name="project" value="LOCAL" />
+      <updated>1680192831033</updated>
+    </task>
+    <task id="LOCAL-00194" summary="Refactor changes">
+      <created>1680193743099</created>
+      <option name="number" value="00194" />
+      <option name="presentableId" value="LOCAL-00194" />
+      <option name="project" value="LOCAL" />
+      <updated>1680193743099</updated>
+    </task>
+    <task id="LOCAL-00195" summary="Refactor changes">
+      <created>1680246866446</created>
+      <option name="number" value="00195" />
+      <option name="presentableId" value="LOCAL-00195" />
+      <option name="project" value="LOCAL" />
+      <updated>1680246866446</updated>
+    </task>
+    <task id="LOCAL-00196" summary="Refactor changes">
+      <created>1680247751897</created>
+      <option name="number" value="00196" />
+      <option name="presentableId" value="LOCAL-00196" />
+      <option name="project" value="LOCAL" />
+      <updated>1680247751897</updated>
+    </task>
+    <task id="LOCAL-00197" summary="Refactor changes">
+      <created>1680247826312</created>
+      <option name="number" value="00197" />
+      <option name="presentableId" value="LOCAL-00197" />
+      <option name="project" value="LOCAL" />
+      <updated>1680247826312</updated>
+    </task>
+    <task id="LOCAL-00198" summary="Refactor changes">
+      <created>1680248215014</created>
+      <option name="number" value="00198" />
+      <option name="presentableId" value="LOCAL-00198" />
+      <option name="project" value="LOCAL" />
+      <updated>1680248215014</updated>
+    </task>
+    <task id="LOCAL-00199" summary="Refactor changes">
+      <created>1680248768452</created>
+      <option name="number" value="00199" />
+      <option name="presentableId" value="LOCAL-00199" />
+      <option name="project" value="LOCAL" />
+      <updated>1680248768453</updated>
+    </task>
+    <task id="LOCAL-00200" summary="Refactor changes">
+      <created>1680251094441</created>
+      <option name="number" value="00200" />
+      <option name="presentableId" value="LOCAL-00200" />
+      <option name="project" value="LOCAL" />
+      <updated>1680251094441</updated>
+    </task>
+    <task id="LOCAL-00201" summary="Refactor changes">
+      <created>1680251129624</created>
+      <option name="number" value="00201" />
+      <option name="presentableId" value="LOCAL-00201" />
+      <option name="project" value="LOCAL" />
+      <updated>1680251129625</updated>
+    </task>
+    <task id="LOCAL-00202" summary="Refactor changes">
+      <created>1680252288399</created>
+      <option name="number" value="00202" />
+      <option name="presentableId" value="LOCAL-00202" />
+      <option name="project" value="LOCAL" />
+      <updated>1680252288399</updated>
+    </task>
+    <task id="LOCAL-00203" summary="Refactor changes">
+      <created>1680254379212</created>
+      <option name="number" value="00203" />
+      <option name="presentableId" value="LOCAL-00203" />
+      <option name="project" value="LOCAL" />
+      <updated>1680254379212</updated>
+    </task>
+    <task id="LOCAL-00204" summary="Refactor changes">
+      <created>1680255698602</created>
+      <option name="number" value="00204" />
+      <option name="presentableId" value="LOCAL-00204" />
+      <option name="project" value="LOCAL" />
+      <updated>1680255698602</updated>
+    </task>
+    <task id="LOCAL-00205" summary="Refactor changes">
+      <created>1680258229035</created>
+      <option name="number" value="00205" />
+      <option name="presentableId" value="LOCAL-00205" />
+      <option name="project" value="LOCAL" />
+      <updated>1680258229035</updated>
+    </task>
+    <task id="LOCAL-00206" summary="Refactor changes">
+      <created>1680259485235</created>
+      <option name="number" value="00206" />
+      <option name="presentableId" value="LOCAL-00206" />
+      <option name="project" value="LOCAL" />
+      <updated>1680259485235</updated>
+    </task>
+    <task id="LOCAL-00207" summary="Refactor changes">
+      <created>1680260160340</created>
+      <option name="number" value="00207" />
+      <option name="presentableId" value="LOCAL-00207" />
+      <option name="project" value="LOCAL" />
+      <updated>1680260160340</updated>
+    </task>
+    <task id="LOCAL-00208" summary="Refactor changes">
+      <created>1680260981652</created>
+      <option name="number" value="00208" />
+      <option name="presentableId" value="LOCAL-00208" />
+      <option name="project" value="LOCAL" />
+      <updated>1680260981653</updated>
+    </task>
+    <task id="LOCAL-00209" summary="Refactor changes">
+      <created>1680261296952</created>
+      <option name="number" value="00209" />
+      <option name="presentableId" value="LOCAL-00209" />
+      <option name="project" value="LOCAL" />
+      <updated>1680261296952</updated>
+    </task>
+    <task id="LOCAL-00210" summary="Refactor changes">
+      <created>1680261458881</created>
+      <option name="number" value="00210" />
+      <option name="presentableId" value="LOCAL-00210" />
+      <option name="project" value="LOCAL" />
+      <updated>1680261458881</updated>
+    </task>
+    <task id="LOCAL-00211" summary="Refactor changes">
+      <created>1680262443210</created>
+      <option name="number" value="00211" />
+      <option name="presentableId" value="LOCAL-00211" />
+      <option name="project" value="LOCAL" />
+      <updated>1680262443210</updated>
+    </task>
+    <task id="LOCAL-00212" summary="Refactor changes">
+      <created>1680262532702</created>
+      <option name="number" value="00212" />
+      <option name="presentableId" value="LOCAL-00212" />
+      <option name="project" value="LOCAL" />
+      <updated>1680262532702</updated>
+    </task>
+    <task id="LOCAL-00213" summary="Refactor changes">
+      <created>1680263310218</created>
+      <option name="number" value="00213" />
+      <option name="presentableId" value="LOCAL-00213" />
+      <option name="project" value="LOCAL" />
+      <updated>1680263310218</updated>
+    </task>
+    <task id="LOCAL-00214" summary="Refactor changes">
+      <created>1680264552593</created>
+      <option name="number" value="00214" />
+      <option name="presentableId" value="LOCAL-00214" />
+      <option name="project" value="LOCAL" />
+      <updated>1680264552593</updated>
+    </task>
+    <task id="LOCAL-00215" summary="Refactor changes">
+      <created>1680264584937</created>
+      <option name="number" value="00215" />
+      <option name="presentableId" value="LOCAL-00215" />
+      <option name="project" value="LOCAL" />
+      <updated>1680264584937</updated>
+    </task>
+    <task id="LOCAL-00216" summary="Refactor changes">
+      <created>1680264776182</created>
+      <option name="number" value="00216" />
+      <option name="presentableId" value="LOCAL-00216" />
+      <option name="project" value="LOCAL" />
+      <updated>1680264776182</updated>
+    </task>
+    <task id="LOCAL-00217" summary="Refactor changes">
+      <created>1680265260983</created>
+      <option name="number" value="00217" />
+      <option name="presentableId" value="LOCAL-00217" />
+      <option name="project" value="LOCAL" />
+      <updated>1680265260983</updated>
+    </task>
+    <task id="LOCAL-00218" summary="Refactor changes">
+      <created>1680265471895</created>
+      <option name="number" value="00218" />
+      <option name="presentableId" value="LOCAL-00218" />
+      <option name="project" value="LOCAL" />
+      <updated>1680265471895</updated>
+    </task>
+    <task id="LOCAL-00219" summary="Refactor changes">
+      <created>1680265846287</created>
+      <option name="number" value="00219" />
+      <option name="presentableId" value="LOCAL-00219" />
+      <option name="project" value="LOCAL" />
+      <updated>1680265846287</updated>
+    </task>
+    <task id="LOCAL-00220" summary="Refactor changes">
+      <created>1680266522121</created>
+      <option name="number" value="00220" />
+      <option name="presentableId" value="LOCAL-00220" />
+      <option name="project" value="LOCAL" />
+      <updated>1680266522121</updated>
+    </task>
+    <task id="LOCAL-00221" summary="Refactor changes">
+      <created>1680266545336</created>
+      <option name="number" value="00221" />
+      <option name="presentableId" value="LOCAL-00221" />
+      <option name="project" value="LOCAL" />
+      <updated>1680266545336</updated>
+    </task>
+    <task id="LOCAL-00222" summary="Refactor changes">
+      <created>1680266682798</created>
+      <option name="number" value="00222" />
+      <option name="presentableId" value="LOCAL-00222" />
+      <option name="project" value="LOCAL" />
+      <updated>1680266682798</updated>
+    </task>
+    <task id="LOCAL-00223" summary="Refactor changes">
+      <created>1680266804002</created>
+      <option name="number" value="00223" />
+      <option name="presentableId" value="LOCAL-00223" />
+      <option name="project" value="LOCAL" />
+      <updated>1680266804002</updated>
+    </task>
+    <task id="LOCAL-00224" summary="Refactor changes">
+      <created>1680518062350</created>
+      <option name="number" value="00224" />
+      <option name="presentableId" value="LOCAL-00224" />
+      <option name="project" value="LOCAL" />
+      <updated>1680518062351</updated>
+    </task>
+    <task id="LOCAL-00225" summary="Refactor changes">
+      <created>1680518284070</created>
+      <option name="number" value="00225" />
+      <option name="presentableId" value="LOCAL-00225" />
+      <option name="project" value="LOCAL" />
+      <updated>1680518284070</updated>
+    </task>
+    <task id="LOCAL-00226" summary="Refactor changes">
+      <created>1680519848596</created>
+      <option name="number" value="00226" />
+      <option name="presentableId" value="LOCAL-00226" />
+      <option name="project" value="LOCAL" />
+      <updated>1680519848596</updated>
+    </task>
+    <task id="LOCAL-00227" summary="Refactor changes">
+      <created>1680596391627</created>
+      <option name="number" value="00227" />
+      <option name="presentableId" value="LOCAL-00227" />
+      <option name="project" value="LOCAL" />
+      <updated>1680596391628</updated>
+    </task>
+    <task id="LOCAL-00228" summary="Refactor changes">
+      <created>1680597811433</created>
+      <option name="number" value="00228" />
+      <option name="presentableId" value="LOCAL-00228" />
+      <option name="project" value="LOCAL" />
+      <updated>1680597811433</updated>
+    </task>
+    <task id="LOCAL-00229" summary="Refactor changes">
+      <created>1680597994836</created>
+      <option name="number" value="00229" />
+      <option name="presentableId" value="LOCAL-00229" />
+      <option name="project" value="LOCAL" />
+      <updated>1680597994836</updated>
+    </task>
+    <task id="LOCAL-00230" summary="Refactor changes">
+      <created>1680598188284</created>
+      <option name="number" value="00230" />
+      <option name="presentableId" value="LOCAL-00230" />
+      <option name="project" value="LOCAL" />
+      <updated>1680598188284</updated>
+    </task>
+    <task id="LOCAL-00231" summary="Refactor changes">
+      <created>1680599343321</created>
+      <option name="number" value="00231" />
+      <option name="presentableId" value="LOCAL-00231" />
+      <option name="project" value="LOCAL" />
+      <updated>1680599343321</updated>
+    </task>
+    <task id="LOCAL-00232" summary="Refactor changes">
+      <created>1680599771399</created>
+      <option name="number" value="00232" />
+      <option name="presentableId" value="LOCAL-00232" />
+      <option name="project" value="LOCAL" />
+      <updated>1680599771399</updated>
+    </task>
+    <task id="LOCAL-00233" summary="Refactor changes">
+      <created>1680600868798</created>
+      <option name="number" value="00233" />
+      <option name="presentableId" value="LOCAL-00233" />
+      <option name="project" value="LOCAL" />
+      <updated>1680600868798</updated>
+    </task>
+    <task id="LOCAL-00234" summary="Refactor changes">
+      <created>1680601067136</created>
+      <option name="number" value="00234" />
+      <option name="presentableId" value="LOCAL-00234" />
+      <option name="project" value="LOCAL" />
+      <updated>1680601067136</updated>
+    </task>
+    <task id="LOCAL-00235" summary="Refactor changes">
+      <created>1680601267025</created>
+      <option name="number" value="00235" />
+      <option name="presentableId" value="LOCAL-00235" />
+      <option name="project" value="LOCAL" />
+      <updated>1680601267025</updated>
+    </task>
+    <task id="LOCAL-00236" summary="Refactor changes">
+      <created>1680603301433</created>
+      <option name="number" value="00236" />
+      <option name="presentableId" value="LOCAL-00236" />
+      <option name="project" value="LOCAL" />
+      <updated>1680603301433</updated>
+    </task>
+    <task id="LOCAL-00237" summary="Refactor changes">
+      <created>1680604448552</created>
+      <option name="number" value="00237" />
+      <option name="presentableId" value="LOCAL-00237" />
+      <option name="project" value="LOCAL" />
+      <updated>1680604448552</updated>
+    </task>
+    <task id="LOCAL-00238" summary="Refactor changes">
+      <created>1680606335237</created>
+      <option name="number" value="00238" />
+      <option name="presentableId" value="LOCAL-00238" />
+      <option name="project" value="LOCAL" />
+      <updated>1680606335237</updated>
+    </task>
+    <task id="LOCAL-00239" summary="Refactor changes">
+      <created>1680606603795</created>
+      <option name="number" value="00239" />
+      <option name="presentableId" value="LOCAL-00239" />
+      <option name="project" value="LOCAL" />
+      <updated>1680606603795</updated>
+    </task>
+    <task id="LOCAL-00240" summary="Refactor changes">
+      <created>1680607410113</created>
+      <option name="number" value="00240" />
+      <option name="presentableId" value="LOCAL-00240" />
+      <option name="project" value="LOCAL" />
+      <updated>1680607410113</updated>
+    </task>
+    <task id="LOCAL-00241" summary="Refactor changes">
+      <created>1680612033862</created>
+      <option name="number" value="00241" />
+      <option name="presentableId" value="LOCAL-00241" />
+      <option name="project" value="LOCAL" />
+      <updated>1680612033862</updated>
+    </task>
+    <option name="localTasksCounter" value="242" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Refactor" />
+    <MESSAGE value="Refactor changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor changes" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="io.restassured.internal.RestAssuredResponseOptionsGroovyImpl" memberName="responseHeaders" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>

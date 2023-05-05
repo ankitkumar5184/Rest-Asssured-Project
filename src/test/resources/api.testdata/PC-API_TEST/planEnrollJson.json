@@ -1,0 +1,40 @@
+{
+  "Custom1": "6bb9ffdc-3e74-4f56-824b-93cb1e9dcd80",
+  "Custom2": "sent to member",
+  "CustomInternal": {
+    "StoringData": {
+      "AgentFirstName": "Kamille",
+      "AgentNPN": "16681169",
+      "AgentLastName": "Gray",
+      "ApplicantHICN": "xxxxxxxxxx",
+      "PartAEffectiveDate": "2018-08-01",
+      "PartBEffectiveDate": "2018-08-01"
+    }
+  },
+  "Enrollee": {
+    "Address1": "123 Main",
+    "Address2": "",
+    "City": "Itasca",
+    "CountyFIPS": "17043",
+    "DateOfBirth": "1953-08-06",
+    "Effective Date": "2022-03-01",
+    "Email": "drxtest@mac.com",
+    "FirstName": "DRXtest",
+    "Gender": "F",
+    "LastName": "DRXtest",
+    "MiddleInitial": "",
+    "PhoneNumber": "2245755555",
+    "State": "IL",
+    "Title": "",
+    "Zip": "60143"
+  },
+  "Enroller": {
+    "AID": "",
+    "BLUserName": "16681169",
+    "BrokerID": "1855043",
+    "ChannelID": "",
+    "PartnerID": "CH582",
+    "UserType": "Consumer"
+  },
+  "Language": "en-US"
+}

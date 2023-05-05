@@ -1,0 +1,47 @@
+[
+  {
+    "HealthStatus": "3",
+    "Birthdate": "01-01-1960",
+    "EffectiveDate": "01-01-2022",
+    "SubsidyLevel": "4",
+    "Zip": "43719",
+    "Fips": "39013",
+    "BLusername": "sritest020",
+    "IsPrimary": false,
+    "Dosages": [
+      {
+        "NDC": "00071015523",
+        "MetricQuantity": 30,
+        "DaysOfSupply": 30
+      },
+      {
+        "NDC": "30698006001",
+        "MetricQuantity": 30,
+        "DaysOfSupply": 30
+      },
+      {
+        "NDC": "51991081801",
+        "MetricQuantity": 30,
+        "DaysOfSupply": 30
+      }
+    ],
+    "Pharmacies": [
+      {
+        "PharmacyIDType": 0,
+        "PharmacyID": "K3RC2",
+        "IsMailOrder": false
+      },
+      {
+        "PharmacyIDType": 1,
+        "PharmacyID": "3684847",
+        "IsMailOrder": false
+      },
+      {
+        "PharmacyIDType": 2,
+        "PharmacyID": "1770598823",
+        "IsMailOrder": false
+      }
+    ],
+    "reqid": "5"
+  }
+]

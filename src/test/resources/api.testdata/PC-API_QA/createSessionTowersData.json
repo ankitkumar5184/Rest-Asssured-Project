@@ -1,0 +1,30 @@
+[
+  {
+    "HealthStatus": "3",
+    "Birthdate": "1940-12-22",
+    "SubsidyLevel": "4",
+    "Zip": "85004",
+    "Fips": "04013",
+    "Profile": {
+      "Birthdate": "1920-12-22",
+      "FirstName": "firstname",
+      "LastName": "lastname"
+    },
+    "Dosages": [
+      {
+        "DaysOfSupply": "30",
+        "MetricQuantity": "30",
+        "NDC": "00071101468"
+      }
+    ]
+  ,
+    "Pharmacies": [
+      {
+        "PharmacyID": "V652P",
+        "IsMailOrder": "false",
+        "PharmacyIDType": "0"
+      }
+    ],
+    "reqid": "5"
+  }
+]

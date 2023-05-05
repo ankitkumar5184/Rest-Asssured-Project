@@ -1,0 +1,43 @@
+# Gradle - Comment test
+# Build your Java project and run tests with Gradle using a Gradle wrapper script.
+# Add steps that analyze code, save build artifacts, deploy, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/java
+
+pool:
+  Agent.OS: 'Windows_NT'
+
+
+steps:
+# clean up daemons
+- task: Gradle@2
+  inputs:
+    gradleWrapperFile: 'gradlew'
+    javaHomeOption: 'JDKVersion'
+    gradleOptions: '-Xmx12288m'
+    publishJUnitResults: false
+    testResultsFiles: '**/TEST-*.xml'
+    tasks: "--stop"
+
+- task: Gradle@2
+  inputs:
+    gradleWrapperFile: 'gradlew'
+    javaHomeOption: 'JDKVersion'
+    gradleOptions: '-Xmx12288m'
+    publishJUnitResults: false
+    testResultsFiles: '**/TEST-*.xml'
+    tasks: "clean debugDeployTest -DdebugSingle=SiteBuilderUtility --rerun-tasks --stacktrace"
+
+- task: PublishTestResults@2
+  inputs:
+    testResultsFormat: 'JUnit'
+    searchFolder: './build/reports/'
+    testResultsFiles: '**/TEST-*.xml'
+    failTaskOnFailedTests: true
+    publishRunAttachments: true
+    testRunTitle: 'QA - Site builder'
+    
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: './test-output/junitreports/'  # for images
+    ArtifactName: 'TestScreenshots'
+    publishLocation: 'Container'

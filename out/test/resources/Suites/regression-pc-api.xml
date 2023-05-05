@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests" thread-count="1">
+
+    <listeners>
+        <listener class-name="api.base.reporter.Listeners"/>
+    </listeners>
+
+<!--    <test name="SessionPlans, verifying plans api end-points">-->
+<!--        <classes>-->
+<!--            <class name="api.tests.test_suite.plancompare.SessionPlansTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Pharmacy, verifying pharmacies end-points">-->
+<!--        <classes>-->
+<!--            <class name="api.tests.test_suite.plancompare.PharmaciesTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="SessionDosages, verifying plans api end-points">-->
+<!--        <classes>-->
+<!--            <class name="api.tests.test_suite.plancompare.SessionDosagesTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="SessionsTest, verifying plans api end-points">-->
+<!--        <classes>-->
+<!--            <class name="api.tests.test_suite.plancompare.SessionsTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="QuestionsTest, verifying questions api end-points">-->
+<!--        <classes>-->
+<!--            <class name="api.tests.test_suite.plancompare.QuestionsTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="HealthCostBenefitsTest, verifying Health Cost Benefits api end-points">-->
+<!--        <classes>-->
+<!--            <class name="api.tests.test_suite.plancompare.HealthCostBenefitsTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Member Search, verify member search api end-points">-->
+<!--        <classes>-->
+<!--            <class name="api.tests.test_suite.plancompare.MemberSearchTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Providers, verifying providers api end-points">-->
+<!--        <classes>-->
+<!--            <class name="api.tests.test_suite.plancompare.ProvidersTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Postman Sessions, verifying sessions api end-points">-->
+<!--        <classes>-->
+<!--            <class name="api.tests.test_suite.plancompare.PostmanSessionsScenariosTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="SessionPlansPostmanScenariosTest, verifying providers api end-points">-->
+<!--        <classes>-->
+<!--            <class name="api.tests.test_suite.plancompare.SessionPlansPostmanScenariosTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Crm Member Flow Spec Scenarios, verifying crmMemberFlowSpec api end-points">-->
+<!--        <classes>-->
+<!--            <class name="api.tests.test_suite.plancompare.CrmMemberFlowSpecTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="DependentsGroovyScenarios, verifying providers api end-points">-->
+<!--        <classes>-->
+<!--            <class name="api.tests.test_suite.plancompare.DependentsSpecTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Commercial Plans Tower, verifying CommercialPlansTower api end-points">-->
+<!--        <classes>-->
+<!--            <class name="api.tests.test_suite.plancompare.CommercialPlansTowersSpecTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+    <test name="Plans For Session Quoter Only Broker, verifying Plans api end-points">
+        <classes>
+            <class name="api.tests.test_suite.plancompare.GetPlansForSessionQuoterOnlyBrokerSpecTest"/>
+        </classes>
+    </test>
+
+<!--    <test name="MedicarePlansAetna2020, verifying MedicarePlansAetna2020 api end-points">-->
+<!--        <classes>-->
+<!--            <class name="api.tests.test_suite.plancompare.MedicarePlansAetna2020SpecTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Session Preferences, verifying session preferences api end-points">-->
+<!--        <classes>-->
+<!--            <class name="api.tests.test_suite.plancompare.SessionPreferencesTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="MedicarePlansACME2020, verifying session MedicarePlansACME2020Spec api end-points">-->
+<!--        <classes>-->
+<!--            <class name="api.tests.test_suite.plancompare.MedicarePlansACME2020SpecTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="MedicarePlansDrxDemoToSPA2021, verifying session MedicarePlansDrxDemoToSPA2021 api end-points">-->
+<!--        <classes>-->
+<!--            <class name="api.tests.test_suite.plancompare.MedicarePlansDrxDemoToSPA2021SpecTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="MedicarePlansHumana2020SpecTest, verifying session MedicarePlansHumana2020SpecTest api end-points">-->
+<!--        <classes>-->
+<!--            <class name="api.tests.test_suite.plancompare.MedicarePlansHumana2020SpecTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="MedicarePlansSPAFlexcare2021, verifying session MedicarePlansSPAFlexcare2021Spec api end-points">-->
+<!--        <classes>-->
+<!--            <class name="api.tests.test_suite.plancompare.MedicarePlansSPAFlexcare2021SpecTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="GetPlansForSessionBroker, verifying GetPlansForSessionBroker api end-points">-->
+<!--        <classes>-->
+<!--            <class name="api.tests.test_suite.plancompare.GetPlansForSessionBrokerSpecTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="Drug Tools Member Flow Spec Scenarios, verifying crmMemberFlowSpec api end-points">-->
+<!--        <classes>-->
+<!--            <class name="api.tests.test_suite.plancompare.DrugToolsPricingSpecTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="MedicarePlansSQSSpecTest, verifying session MedicarePlansSQSSpecTest api end-points">-->
+<!--        <classes>-->
+<!--            <class name="api.tests.test_suite.plancompare.MedicarePlansSQSSpecTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="MedSupPlansInitiallyEligibleSpecTest, verifying session MedSupPlansInitiallyEligibleSpecTest api end-points">-->
+<!--        <classes>-->
+<!--            <class name="api.tests.test_suite.plancompare.MedSupPlansInitiallyEligibleSpecTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="MedsupPlansACME2020SpecTest, verifying session MedsupPlansACME2020SpecTest api end-points">-->
+<!--        <classes>-->
+<!--            <class name="api.tests.test_suite.plancompare.MedSupPlansACME2020SpecTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="MedsupPlansDirect2021SpecTest, verifying MedsupPlansDirect2021SpecTest api end-points">-->
+<!--        <classes>-->
+<!--            <class name="api.tests.test_suite.plancompare.MedsupPlansDirect2021SpecTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="MedSupPlansSMSSpecTest, verifying session MedSupPlansSMSSpecTest api end-points">-->
+<!--        <classes>-->
+<!--            <class name="api.tests.test_suite.plancompare.MedSupPlansSMSSpecTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="MedsupMACRAPlansAcmeCA, verifying session MedsupMACRAPlansAcmeCASpec api end-points">-->
+<!--        <classes>-->
+<!--            <class name="api.tests.test_suite.plancompare.MedsupMACRAPlansAcmeCASpecTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="PreferenceQuestionsSpecTest, verifying PreferenceQuestionsSpecTest api end-points">-->
+<!--        <classes>-->
+<!--            <class name="api.tests.test_suite.plancompare.PreferenceQuestionsSpecTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="PharmacyCostsValidationSpecTest, verifying session PharmacyCostsValidationSpecTest api end-points">-->
+<!--        <classes>-->
+<!--            <class name="api.tests.test_suite.plancompare.PharmacyCostsValidationSpecTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="MedSup Plans FlexCare Spec Scenarios, verifying crmMemberFlowSpec api end-points">-->
+<!--        <classes>-->
+<!--            <class name="api.tests.test_suite.plancompare.MedSupPlansFlexCareSpecTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="PlansSpecPharmacyDetailsTest, verifying session PlansSpecPharmacyDetails api end-points">-->
+<!--        <classes>-->
+<!--            <class name="api.tests.test_suite.plancompare.PlansSpecPharmacyDetailsTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="MedSupPlansPreloadACMESpecTest, verifying MedSupPlansPreloadACMESpecTest api end-points">-->
+<!--        <classes>-->
+<!--            <class name="api.tests.test_suite.plancompare.MedSupPlansPreloadACMESpecTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="RiderCombinationsSpecTest, verifying RiderCombinationsSpecTest api end-points">-->
+<!--        <classes>-->
+<!--            <class name="api.tests.test_suite.plancompare.RiderCombinationsSpecTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="ExistingMemberSearchPDF2020SpecTest, verifying ExistingMemberSearchPDF2020SpecTest api end-points">-->
+<!--        <classes>-->
+<!--            <class name="api.tests.test_suite.plancompare.ExistingMemberSearchPDF2020SpecTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="MemberSearchSouthernPDF2020SpecTest, verifying MemberSearchSouthernPDF2020SpecTest api end-points">-->
+<!--        <classes>-->
+<!--            <class name="api.tests.test_suite.plancompare.MemberSearchSouthernPDF2020SpecTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+</suite>

@@ -1,0 +1,106 @@
+[
+  {
+    "EffectiveDate": "2022-07-01",
+    "Zip": "71602",
+    "Fips": "05053",
+    "HealthStatus": 3,
+    "Birthdate": "1960-01-01",
+    "Questions": [
+      {
+        "QuestionID": 1,
+        "Name": "Gender",
+        "Text": "What is your gender?",
+        "AnswerType": "String",
+        "AnswerList": [
+          "Male",
+          "Female"
+        ],
+        "Tooltip": "",
+        "Value": "Male"
+      },
+      {
+        "QuestionID": 4,
+        "Name": "Tobacco",
+        "Text": "Do you smoke?",
+        "AnswerType": "String",
+        "AnswerList": [
+          "Non-Smoker",
+          "Smoker"
+        ],
+        "Tooltip": "",
+        "Value": "Non-Smoker"
+      },
+      {
+        "QuestionID": 6,
+        "Name": "Household",
+        "Text": "Will you also be signing up your spouse?",
+        "AnswerType": "String",
+        "AnswerList": [
+          "Yes",
+          "No"
+        ],
+        "Tooltip": "",
+        "Value": "No"
+      },
+      {
+        "QuestionID": 9,
+        "Name": "EffectiveDate",
+        "Text": "When would you like coverage to begin?",
+        "AnswerType": "DateTime",
+        "Tooltip": "",
+        "Value": "1/1/2022 12:00:00 PM"
+      },
+      {
+        "QuestionID": 10,
+        "Name": "GuaranteedIssue",
+        "Text": "Are you under Guaranteed Issue?",
+        "AnswerType": "String",
+        "AnswerList": [
+          "Yes",
+          "No"
+        ],
+        "Tooltip": "",
+        "Value": "No"
+      },
+      {
+        "QuestionID": 14,
+        "Name": "ZipCode",
+        "Text": "What is your zipcode?",
+        "AnswerType": "String",
+        "Tooltip": "",
+        "Value": "43719"
+      },
+      {
+        "QuestionID": 15,
+        "Name": "County_FIPS",
+        "Text": "What is your county?",
+        "AnswerType": "String",
+        "Tooltip": "",
+        "Value": "39013"
+      },
+      {
+        "QuestionID": 16,
+        "Name": "DateOfBirth",
+        "Text": "What is your date of birth?",
+        "AnswerType": "DateTime",
+        "Tooltip": "",
+        "Value": "3/30/1943 8:00:00 PM"
+      },
+      {
+        "QuestionID": 17,
+        "Name": "PartBEffectiveDate",
+        "Text": "What is your Part B Effective Date?",
+        "AnswerType": "DateTime",
+        "Tooltip": "",
+        "Value": "2/29/2008 4:00:00 PM"
+      },
+      {
+        "QuestionID": 26,
+        "Name": "PartAEffectiveDate",
+        "Text": "What is your Part A Effective Date?",
+        "AnswerType": "DateTime",
+        "Value": "2/29/2008 4:00:00 PM"
+      }
+    ]
+  }
+]

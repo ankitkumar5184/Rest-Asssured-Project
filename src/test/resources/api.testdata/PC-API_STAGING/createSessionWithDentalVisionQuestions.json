@@ -1,0 +1,21 @@
+[
+  {
+    "Birthdate": "1944-08-19T00:00:00",
+    "Questions": [
+      {
+        "QuestionID": 9,
+        "Name": "EffectiveDate",
+        "Text": "When would you like coverage to begin?",
+        "AnswerType": "DateTime",
+        "Value": "01/01/2022"
+      },
+      {
+        "QuestionID": 16,
+        "Name": "DateOfBirth",
+        "Text": "What is your date of birth?",
+        "AnswerType": "DateTime",
+        "Value": "01/01/1950"
+      }
+    ]
+  }
+]

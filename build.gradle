@@ -1,0 +1,164 @@
+plugins {
+    id 'java'
+    id 'io.qameta.allure' version '2.9.3'
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+group 'com.connecture'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+ext {
+    allureVersion = '2.19.0'
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+dependencies {
+    implementation 'org.assertj:assertj-core:3.23.1'
+    testImplementation group: 'io.rest-assured', name: 'rest-assured', version: '5.3.0'
+    implementation 'com.aventstack:extentreports-testng-adapter:1.2.2'
+    testImplementation('com.aventstack:extentreports:5.0.9')
+    testImplementation('com.codeborne:selenide-testng:6.11.2')
+    testImplementation("io.qameta.allure:allure-selenide:${allureVersion}")
+    testImplementation('io.github.bonigarcia:webdrivermanager:5.3.0')
+    testImplementation('org.assertj:assertj-core:3.23.1')
+    testImplementation('org.slf4j:slf4j-simple:2.0.6')
+    testImplementation ('org.json:json:20201115')
+    testImplementation 'io.rest-assured:rest-assured:4.5.1'
+    testImplementation 'junit:junit:4.13.1'
+    testImplementation 'org.testng:testng:7.7.1'
+    testImplementation group: 'io.rest-assured', name: 'rest-assured', version: '5.3.0'
+    implementation group: 'com.beust', name: 'jcommander', version: '1.72'
+    implementation group: 'org.apache.ant', name: 'ant', version: '1.10.12'
+    testImplementation group: 'junit', name: 'junit', version: '4.12'
+    implementation 'org.apache.pdfbox:pdfbox:2.0.27'
+}
+
+// TFS debug single script
+task debugDeployTest (type: Test) {
+    testLogging {
+        outputs.upToDateWhen {false}
+        showStandardStreams = true
+        events "passed", "skipped", "failed", "standardOut", "standardError"
+    }
+    println("test: " + System.getProperty("debugSingle"))
+    useTestNG() {
+        systemProperty 'isHotfix', System.getProperty('isHotfix')
+        def debugProfile = System.getProperty("debugSingle")
+        if( debugProfile == null ) { debugProfile = "ConsumerConfirmationSpec" }
+        useDefaultListeners = true
+        filter {
+         includeTestsMatching '*.' +  debugProfile // ie ConsumerConfirmationSpec
+        }
+        reports.html.enabled = true
+    }
+}
+
+
+task hostedDeployTests (type: Test) {
+    systemProperty "enableRetry", "true"
+    ignoreFailures = true
+    testLogging {
+        outputs.upToDateWhen {false}
+        showStandardStreams = true
+        events "passed", "skipped", "failed", "standardOut", "standardError"
+    }
+    useTestNG() {
+        systemProperty 'isHotfix', System.getProperty('isHotfix')
+        useDefaultListeners = true
+        suites '/src/test/resources/Suites/suiteHostedDeployment.xml'
+        reports.html.enabled = true
+    }
+}
+
+task hostedDeployTests2023 (type: Test) {
+    systemProperty "enableRetry", "true"
+    ignoreFailures = true
+    testLogging {
+        outputs.upToDateWhen {false}
+        showStandardStreams = true
+        events "passed", "skipped", "failed", "standardOut", "standardError"
+    }
+    useTestNG() {
+        systemProperty 'isHotfix', System.getProperty('isHotfix')
+        useDefaultListeners = true
+        suites '/src/test/resources/Suites/suiteHostedRegression2023.xml'
+        reports.html.enabled = true
+    }
+}
+
+task apiTests (type: Test) {
+    ignoreFailures = true
+    testLogging {
+        outputs.upToDateWhen {false}
+        showStandardStreams = true
+        events "passed", "skipped", "failed", "standardOut", "standardError"
+    }
+    useTestNG() {
+        suites '/src/test/resources/Suites/suiteAPI.xml'
+        reports.html.enabled = false
+    }
+}
+
+task pcApiTests (type: Test) {
+    ignoreFailures = true
+    testLogging {
+        outputs.upToDateWhen {false}
+        showStandardStreams = true
+        events "passed", "skipped", "failed", "standardOut", "standardError"
+    }
+
+    useTestNG(){
+        suites '/src/test/resources/Suites/regression-pc-api.xml'
+        reports.html.enabled = true
+    }
+}
+
+task toolsApiTests (type: Test) {
+    ignoreFailures = true
+    testLogging {
+        outputs.upToDateWhen {false}
+        showStandardStreams = true
+        events "passed", "skipped", "failed", "standardOut", "standardError"
+    }
+
+    useTestNG(){
+        suites '/src/test/resources/Suites/regression-tools-api.xml'
+        reports.html.enabled = true
+    }
+}
+
+/* Parallel sample
+def suiteName = System.getProperty("suite")
+test {
+    useTestNG() {
+        useDefaultListeners = true
+        includeGroups 'regression'
+        if(suiteName){
+            print("Running suite - " + '/src/test/resources/' + suiteName + '.xml'); println("");
+            suites '/src/test/resources/' + suiteName + '.xml'
+        }
+        setParallel('tests')
+        setThreadCount(2)
+    }
+} */
+
+allure {
+    autoconfigure = true
+    version = "${allureVersion}"
+
+    useTestNG {
+        version = "${allureVersion}"
+    }
+}

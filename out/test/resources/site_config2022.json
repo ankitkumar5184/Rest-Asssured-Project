@@ -1,0 +1,41 @@
+{
+    "QA": {
+      "Consumer_base": {
+        "tree:": "base",
+        "siteURL": "https://atmconsumerdefault.qa.destinationrx.com/PC/2022",
+        "platformURL": "https://admin.qa.destinationrx.com/PlatformManager2/Site/Index/5e1f0713-8d38-ec11-a326-005056961565"
+      },
+      "Consumer_default": {
+        "tree:": "child",
+        "year": "2022",
+        "siteURL": "https://atmconsumerdefault.qa.destinationrx.com/PC/2022",
+        "platformURL": "https://admin.qa.destinationrx.com/PlatformManager2/Site/Index/5e1f0713-8d38-ec11-a326-005056961565"
+      },
+      "Professional_perfMC": {
+        "tree:": "child",
+        "year": "2022",
+        "siteURL": "https://atmbrokerperfmc.qa.destinationrx.com/PC/2022",
+        "platformURL": "https://admin.qa.destinationrx.com/PlatformManager2/Site/Index/5e1f0713-8d38-ec11-a326-005056961565"
+      },
+      "Consumer_customA": {
+        "tree:": "child",
+        "year": "2022",
+        "siteURL": "https://atmconsumercustoma.qa.destinationrx.com/PC/2022",
+        "platformURL": "https://admin.qa.destinationrx.com/PlatformManager2/Site/Index/5e1f0713-8d38-ec11-a326-005056961565"
+      },
+
+
+    "QAHotfix": {
+      "Consumer_base": {
+        "tree:": "base",
+        "siteURL": "https://atmconsumerdefault.qa.destinationrx.com/PC/2022",
+        "platformURL": "https://admin.qa.destinationrx.com/PlatformManager2/Site/Index/5e1f0713-8d38-ec11-a326-005056961565"
+      },
+      "Consumer_default": {
+        "tree:": "child",
+        "siteURL": "https://atmconsumerdefault.qa.destinationrx.com/PC/2022",
+        "platformURL": "https://admin.qa.destinationrx.com/PlatformManager2/Site/Index/5e1f0713-8d38-ec11-a326-005056961565"
+      }
+    }
+   }
+}

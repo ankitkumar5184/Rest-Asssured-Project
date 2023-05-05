@@ -1,0 +1,162 @@
+[
+  {
+    "QuestionID": 1,
+    "Name": "Gender",
+    "Text": "What is your gender?",
+    "AnswerType": "String",
+    "AnswerList": [
+      "Male",
+      "Female"
+    ],
+    "Value": "Male"
+  },
+  {
+    "QuestionID": 4,
+    "Name": "Tobacco",
+    "Text": "Do you smoke?",
+    "AnswerType": "String",
+    "AnswerList": [
+      "Non-Smoker",
+      "Smoker"
+    ],
+    "Value": "Non-Smoker"
+  },
+  {
+    "QuestionID": 5,
+    "Name": "PaymentMethod",
+    "Text": "What premium payment frequency do you prefer?  (Note: Not all billing options are available or endorsed by all Carriers - Please review the enrollment application for the final billing options.)",
+    "AnswerType": "String",
+    "AnswerList": [
+      "Bi-Monthly",
+      "Monthly",
+      "Quarterly",
+      "Semi-Annually",
+      "Annually",
+      "LumpSum"
+    ],
+    "Value": "Annually"
+  },
+  {
+    "QuestionID": 6,
+    "Name": "Household",
+    "Text": "Will you also be signing up your spouse?",
+    "AnswerType": "String",
+    "AnswerList": [
+      "Yes",
+      "No"
+    ],
+    "Value": "No"
+  },
+  {
+    "QuestionID": 9,
+    "Name": "EffectiveDate",
+    "Text": "When would you like coverage to begin?",
+    "AnswerType": "DateTime",
+    "Value": "10-01-2022"
+  },
+  {
+    "QuestionID": 10,
+    "Name": "GuaranteedIssue",
+    "Text": "Are you under Guaranteed Issue?",
+    "AnswerType": "String",
+    "AnswerList": [
+      "Yes",
+      "No"
+    ],
+    "Value": "Yes"
+  },
+  {
+    "QuestionID": 11,
+    "Name": "Height",
+    "Text": "What is your height?",
+    "AnswerType": "Integer",
+    "Tooltip": "Height (inches)",
+    "Value": "60"
+  },
+  {
+    "QuestionID": 12,
+    "Name": "Weight",
+    "Text": "What is your weight?",
+    "AnswerType": "Integer",
+    "Tooltip": "Weight (pounds)",
+    "Value": "180"
+  },
+  {
+    "QuestionID": 14,
+    "Name": "ZipCode",
+    "Text": "What is your zipcode?",
+    "AnswerType": "String",
+    "Value": "90010"
+  },
+  {
+    "QuestionID": 15,
+    "Name": "County_FIPS",
+    "Text": "What is your county?",
+    "AnswerType": "String",
+    "Value": "06037"
+  },
+  {
+    "QuestionID": 16,
+    "Name": "DateOfBirth",
+    "Text": "What is your date of birth?",
+    "AnswerType": "DateTime",
+    "Value": "01/01/1960"
+  },
+  {
+    "QuestionID": 17,
+    "Name": "PartBEffectiveDate",
+    "Text": "What is your Part B Effective Date?",
+    "AnswerType": "DateTime",
+    "Value": "09/01/2022"
+  },
+  {
+    "QuestionID": 25,
+    "Name": "GIAdditional",
+    "Text": "Additional GI Question",
+    "AnswerType": "String",
+    "AnswerList": [
+      "Yes",
+      "No"
+    ],
+    "Value": "No"
+  },
+  {
+    "QuestionID": 26,
+    "Name": "PartAEffectiveDate",
+    "Text": "What is your Part A Effective Date?",
+    "AnswerType": "DateTime",
+    "Value": "05/01/2022"
+  },
+  {
+    "QuestionID": 28,
+    "Name": "Disability",
+    "Text": "Were you Medicare eligible due to disability or ESRD, or did you turn 65 on or after January 1, 2020?",
+    "AnswerType": "String",
+    "Value": "No"
+  },
+  {
+    "QuestionID": 29,
+    "Name": "EFTDiscount",
+    "Text": "Will you be paying your premium via Electronic Funds Transfer (EFT) from your bank account?",
+    "AnswerType": "String",
+    "AnswerList": [
+      "Yes",
+      "No"
+    ],
+    "Value": "No"
+  },
+  {
+    "QuestionID": 30,
+    "Name": "BenefitAmount",
+    "Text": "Amount that the Benefit will Cover",
+    "AnswerType": "Integer",
+    "Value": 500
+  },
+  {
+    "QuestionID": 31,
+    "Name": "HCDaysCovered",
+    "Text": "Number of Days Covered",
+    "AnswerType": "Integer",
+    "Value": 5
+  }
+]

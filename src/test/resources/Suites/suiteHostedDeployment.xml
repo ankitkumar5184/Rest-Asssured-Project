@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "in house">
+<suite name="all" verbose="1" parallel = "classes" thread-count = "5">
+    <groups>
+        <run>
+            <include name="deployment" />
+        </run>
+    </groups>
+    <test name="all">
+        <packages>
+            <package name="com.connecture.spec2022"/>
+        </packages>
+    </test>
+</suite>

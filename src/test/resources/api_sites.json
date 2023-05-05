@@ -1,0 +1,20 @@
+{
+  "QA": {
+    "QA_testing": {
+      "token": "eDZxSzJwWmJFZUtLdHdBVlhRd3JCQTpwYXNzd29yZA==",
+      "platformURL": "https://admin.qa.destinationrx.com/PlatformManager2/Account/Unauthorized?returnUrl=%2FPlatformManager2%2FSite%2FIndex%2Fda8aaac7-5b96-e211-8ab7-00155d0c2b04#key=api"
+    }
+  },
+  "STAGE": {
+    "QA_testing": {
+      "token": "2022",
+      "platformURL": "https://admin.staging.destinationrx.com/PlatformManager2/Account/Unauthorized?returnUrl=%2FPlatformManager2%2FSite%2FIndex%2F0911901a-199e-e211-8c49-00155deddb17"
+    },
+    "UHC": {
+      "token": "SHc4dktmaFlFZVdBNmdBVlhRd29NUTpYRnFsN2svQjhQLzdNcG56Q2pRV0poWXRGTTA3UGtNWWpNZlJwd01qRmg0",
+      "platformURL": "?"
+    }
+  }
+}
+
+

@@ -1,0 +1,44 @@
+{
+  "QA": {
+    "platformuser": {
+      "username": "QALogin_Automation",
+      "password": "QA123!@lower"
+    },
+    "stateMedicareBroker": {
+      "username": "agentMedicareCAPA1",
+      "password": "QA123!@lower"
+    },
+    "medigapBroker": {
+      "username": "agentMedigap1",
+      "password": "QA123!@lower"
+    },
+    "atmWorkflowBrokerMap": {
+      "username": "ATMWorkflowBroker2022",
+      "password": "QA123!@lower",
+      "email": "ATMWorkflowBroker@connectmail.cnxrdev.com",
+      "pass": "QA123!@lower",
+      "firstName": "AgentFirst",
+      "lastName": "AgentLast",
+      "phone": "(919) 555-0000",
+      "address": "123 Test St",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zip": "90210",
+      "agentID": "42342342",
+      "npn": "NPNTEST",
+      "agencyName": "Heather Test Users (Name)",
+      "agencyId": "Heather Test Users (External Name)",
+      "expiration": "12/31/9999",
+      "role": "Enroller_Admin",
+      "purlLink": "https://atmconsumerdefault.qa.destinationrx.com/PC/2022/u/QVRNV29ya2Zsb3dCcm9rZXIyMDIy"
+    },
+    "flexcareCarrierMap": {
+      "address":"Main street",
+      "phone":"(800) 379-9050",
+      "snpPhone":"(800) 379-9060",
+      "cityState":"Los Angeles, CA 90010",
+      "name": "DRX Demo",
+      "url":"connecture.com"
+    }
+  }
+}

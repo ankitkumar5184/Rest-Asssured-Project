@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "in house">
+<suite name="api">
+    <test name="all">
+        <packages>
+            <package name="com.connecture.api.*"/>
+        </packages>
+    </test>
+</suite> <!-- Suite -->

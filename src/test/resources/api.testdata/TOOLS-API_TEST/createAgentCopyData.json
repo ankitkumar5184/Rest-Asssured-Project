@@ -1,0 +1,22 @@
+{
+  "AgentID": "10099",
+  "UserName": "BMAgent1004",
+  "Password": "BMAgent1003",
+  "ExternalUserId": "BMAgent1003",
+  "FirstName": "BMAgent1003",
+  "LastName": "BMDrxTest1234",
+  "EmailAddress": "BMilipovic@connecture.com",
+  "PhoneNumber": "7085551212",
+  "Extension": "123456789",
+  "Address1": "123 Any Street",
+  "City": "Anytown",
+  "State": "CA",
+  "Zip": "90010",
+  "AgentRole": "Enroller_Broker",
+  "NPN": "ABC5245252",
+  "IsActive": 1,
+  "ResetPasswordRequired": 1,
+  "ExpirationDate": "12-31-2050",
+  "AgencyID": "11-21-059@z9999k0xx9999lb99cC@9xa",
+  "AgencyName": "National QA001"
+}

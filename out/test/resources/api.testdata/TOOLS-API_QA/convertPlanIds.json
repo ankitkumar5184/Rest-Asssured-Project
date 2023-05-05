@@ -1,0 +1,10 @@
+{
+  "MedicarePlans": [
+    {
+      "ContractID": "H0543",
+      "PlanID": "121",
+      "SegmentID": "000",
+      "PlanYear": 2023
+    }
+  ]
+}

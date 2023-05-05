@@ -1,0 +1,47 @@
+<EnrollmentSettings xmlns="">
+    <Custom1>Custom_1</Custom1>
+    <Custom2>Custom_2</Custom2>
+    <Custom3>Custom_3</Custom3>
+    <Custom4>Custom_4</Custom4>
+    <Custom5>Custom_5</Custom5>
+    <CustomInternalXml>
+        <StoringData>
+            <PrimaryCarePhysician>VALUE</PrimaryCarePhysician>
+        </StoringData>
+    </CustomInternalXml>
+
+    <EnrollDisplay>
+        <EnrollDisplay>
+            <KeyMessage>AgentMessage</KeyMessage>
+            <ValueMessage>AgentFirst AgentLast 817-555-1212</ValueMessage>
+        </EnrollDisplay>
+    </EnrollDisplay>
+
+    <Enrollee>
+        <Address1>Address Line 1</Address1>
+        <Address2>Address Line 2</Address2>
+        <City>RegCity</City>
+        <CountyFIPS>06037</CountyFIPS>
+        <DateOfBirth>1922-07-02</DateOfBirth>
+        <EffectiveDate>2019-04-01</EffectiveDate>
+        <Email>enrollDrop@connectmail.cnxrdev.com</Email>
+        <FirstName>drxtest123</FirstName>
+        <Gender>M</Gender>
+        <LastName>drxtest123</LastName>
+        <MiddleInitial>R</MiddleInitial>
+        <PhoneNumber>1111111111</PhoneNumber>
+        <State>CA</State>
+        <Title>Mr</Title>
+        <Zip>90010</Zip>
+    </Enrollee>
+
+    <Enroller>
+        <AID>Affiliate</AID>
+        <BrokerID>TESTSQS</BrokerID>
+        <ChannelID>Channel</ChannelID>
+        <PartnerID>SQS167</PartnerID>
+        <UserType>all</UserType>
+    </Enroller>
+
+    <Language>en-US</Language>
+</EnrollmentSettings>

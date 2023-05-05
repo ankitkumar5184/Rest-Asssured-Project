@@ -1,0 +1,86 @@
+{
+    "QA": {
+      "Consumer_base": {
+        "tree:": "base",
+        "siteURL": "https://atmConsumerBase.qa.destinationrx.com/PC/2023 ",
+        "platformURL": "https://admin.qa.destinationrx.com/PlatformManager2/Site/Index/cc7b9c76-a671-ed11-a33e-005056961565"
+      },
+      "Consumer_default": {
+        "tree:": "child",
+        "siteURL": "https://atmconsumerdefault.qa.destinationrx.com/PC/2023",
+        "platformURL": "https://admin.qa.destinationrx.com/PlatformManager2/Site/Index/106f95d6-a771-ed11-a33e-005056961565"
+      },
+      "Consumer_customA": {
+        "tree:": "child",
+        "siteURL": "https://atmconsumercustoma.qa.destinationrx.com/PC/2023",
+        "platformURL": "https://admin.qa.destinationrx.com/PlatformManager2/Site/Index/44c27bea-d27f-ed11-a33f-005056961565"
+      },
+      "Consumer_customB": {
+        "tree:": "child",
+        "siteURL": "https://atmconsumercustomb.qa.destinationrx.com/PC/2023",
+        "platformURL": "https://admin.qa.destinationrx.com/PlatformManager2/Site/Index/68e830fb-d57f-ed11-a33f-005056961565"
+      },
+      "Consumer_customC": {
+        "tree:": "child",
+        "siteURL": "https://atmconsumercustomc.qa.destinationrx.com/PC/2023",
+        "platformURL": "https://admin.qa.destinationrx.com/PlatformManager2/Site/Index/7e5b7920-d67f-ed11-a33f-005056961565"
+      },
+      "Consumer_perfMC": {
+        "tree:": "child",
+        "siteURL": "https://atmconsumerperfmc.qa.destinationrx.com/PC/2023",
+        "platformURL": "https://admin.qa.destinationrx.com/PlatformManager2/Site/Index/211f3f54-d67f-ed11-a33f-005056961565"
+      },
+      "Consumer_perfSC": {
+        "tree:": "child",
+        "siteURL": "https://atmconsumerperfsc.qa.destinationrx.com/PC/2023",
+        "platformURL": "https://admin.qa.destinationrx.com/PlatformManager2/Site/Index/221f3f54-d67f-ed11-a33f-005056961565"
+      },
+
+      "Broker_base": {
+        "tree:": "base",
+        "siteURL": "https://atmbrokerbase.qa.destinationrx.com/PC/2023",
+        "platformURL": "https://admin.qa.destinationrx.com/PlatformManager2/Site/Index/906159b9-aa71-ed11-a33e-005056961565"
+      },
+      "Broker_default": {
+        "tree:": "child",
+        "siteURL": "https://atmbrokerdefault.qa.destinationrx.com/PC/2023",
+        "platformURL": "https://admin.qa.destinationrx.com/PlatformManager2/Site/Index/5c6a0a3b-ab71-ed11-a33e-005056961565"
+      },
+      "Broker_customA": {
+        "tree:": "child",
+        "siteURL": "https://atmbrokercustoma.qa.destinationrx.com/PC/2023",
+        "platformURL": "https://admin.qa.destinationrx.com/PlatformManager2/Site/Index/bc15ab83-d97f-ed11-a33f-005056961565"
+      },
+      "Broker_customB": {
+        "tree:": "child",
+        "siteURL": "https://atmbrokercustomb.qa.destinationrx.com/PC/2023",
+        "platformURL": "https://admin.qa.destinationrx.com/PlatformManager2/Site/Index/edb86b90-d97f-ed11-a33f-005056961565"
+      },
+      "Broker_perfMC": {
+        "tree:": "child",
+        "siteURL": "https://atmbrokerperfmc.qa.destinationrx.com/PC/2023",
+        "platformURL": "https://admin.qa.destinationrx.com/PlatformManager2/Site/Index/222c5499-d97f-ed11-a33f-005056961565"
+      },
+      "Broker_perfSC": {
+        "tree:": "child",
+        "siteURL": "https://atmbrokerperfsc.qa.destinationrx.com/PC/2023",
+        "platformURL": "https://admin.qa.destinationrx.com/PlatformManager2/Site/Index/47d46eb0-d97f-ed11-a33f-005056961565"
+      },
+
+      "CallCenter_base": {
+        "tree:": "base",
+        "siteURL": "https://atmccbase.qa.destinationrx.com/PC/2023",
+        "platformURL": "https://admin.qa.destinationrx.com/PlatformManager2/Site/Index/66a6bd32-d17f-ed11-a33f-005056961565"
+      },
+      "CallCenter_default": {
+        "tree:": "child",
+        "siteURL": "https://atmccdefault.qa.destinationrx.com/PC/2023",
+        "platformURL": "https://admin.qa.destinationrx.com/PlatformManager2/Site/Index/09bc5a4f-d27f-ed11-a33f-005056961565"
+      },
+      "CallCenter_customA": {
+        "tree:": "child",
+        "siteURL": "https://atm-cc-customa.qa.destinationrx.com/PC/2023",
+        "platformURL": "https://admin.qa.destinationrx.com/PlatformManager2/Site/Index/255c7065-d47f-ed11-a33f-005056961565"
+      }
+    }
+}

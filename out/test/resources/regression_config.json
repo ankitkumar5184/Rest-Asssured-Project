@@ -1,0 +1,131 @@
+{
+  "QA": {
+    "pharmacyLA": "CVS Pharmacy #09596",
+    "pharmacyLAsearched": "Ralphs Pharmacy",
+    "drxMemberAddressLineLA": "1201 Park Way",
+    "drxMemberAddressLine2LA": "Apt 200",
+    "drxMemberCity": "Los Angeles",
+    "drxMemberState": "CA",
+    "drxMemberZip": "90058",
+    "drxMemberFips": "06037",
+    "drxMemberCountyNameWithoutState": "Los Angeles",
+    "drxMemberCountyName": "Los Angeles, CA",
+    "drxMemberFirstName": "drxtest",
+    "drxMemberLastName": "drxtest",
+    "drxMemberDOB": "01/01/1940",
+    "drxMemberPhone": "(919) 555-0000",
+    "drxMemberSSN": "222445555",
+    "drxMedicareID": "1aa1aa1aa11",
+    "drxMemberGender": "Female",
+    "drxMemberPartAdate": "01/01/2020",
+    "drxMemberPartBdate": "02/01/2020",
+    "flexcareCommonMAPDPlanToEnroll": "flexcare MAPD plan 2",
+    "flexcareSecondCommonMAPDPlanToEnroll": "flexcare MAPD plan 4",
+    "flexcareSNPMAPDPlanToEnroll": "flexcare MAPD plan 1",
+    "flexcareCommonPDPlanToEnroll": "Flexcare PDP Plan 1",
+    "multiCountyZip": "60010",
+    "multiCountyZipCountyName1": "Cook, IL",
+    "multiCountyZipCountyName2": "Kane, IL",
+    "multiCountyZipCountyName3": "Lake, IL",
+    "multiCountyZipCountyName4": "McHenry, IL",
+    "multiStateZip": "42223",
+    "multiStateZipCountyName1" : "Christian, KY",
+    "multiStateZipCountyName2" : "Montgomery, TN",
+    "riderMonthlyPlanNameDental" : "Flexcare Dental",
+    "riderMonthlyPlanNameHearing" : "Flexcare Hearing",
+    "riderMonthlyPlanNameVision" : "Flexcare Vision",
+    "riderMonthlyPlanNameCombined" : "Flexcare Combined",
+    "mapdPlanListTabText" : "Medicare Advantage Prescription Drug Plans",
+    "maPlanListTabText" : "Medicare Advantage Plans",
+    "pdpPlanListTabText" : "Prescription Drug Plans",
+    "medsupPlanListTabText" : "Medicare Supplement Plans",
+    "medicareUnpermissionedZip" : "14201",
+    "medicareUnpermissionedCountyName" : "Erie",
+    "unusedEmailDrop" : "enrollDrop@connectmail.cnxrdev.com",
+     "newUserName" : "jkruger",
+    "prefScoreOption": "Preference Score (High to Low)",
+    "costSortOption" : "Total Estimated Cost",
+    "premiumSortOption": "Plan Premium (Low to High)",
+    "nameSortOption" : "Plan Name (A-Z)",
+    "medicareNumber": "1EG4TE5MK72",
+    "serverTimeZone": "America/Los_Angeles",
+    "editZipNewZip": "92037",
+    "editZipNewCounty": "San Diego",
+    "editZipNewCity": "La Jolla",
+
+
+    "drugBrand": {
+      "name": "Lipitor TAB 10MG",
+      "dosageName": "Lipitor TAB 10MG",
+      "searchName": "Lipitor",
+      "genericAlternative": "null",
+      "optionalMinDosages": "2",
+      "type": "Brand",
+      "quantity": "",
+      "freq": "",
+      "pharmacyLA": "CVS Pharmacy #09596"
+    },
+    "drugGeneric": {
+      "name": "lisinopril TAB 10MG",
+      "dosageName": "lisinopril TAB 10MG",
+      "searchName": "lisinopril",
+      "genericAlternative": "null",
+      "optionalMinDosages": "null",
+      "type": "Generic",
+      "quantity": "",
+      "freq": ""
+    },
+    "drugSwitchGeneric": {
+      "name": "atorvastatin calcium TAB 10MG",
+      "dosageName": "Lipitor TAB 10MG",
+      "searchName": "Lipitor",
+      "genericAlternative": "atorvastatin calcium",
+      "optionalMinDosages": "null",
+      "type": "Generic",
+      "quantity": "",
+      "freq": ""
+    },
+    "drugCommon": {
+      "name": "amlodipine besylate",
+      "dosageName": "amlodipine besylate TAB 5MG",
+      "searchName": "amlodipine besylate",
+      "genericAlternative": "null",
+      "optionalMinDosages": "null",
+      "type": "Generic",
+      "quantity": "",
+      "freq": ""
+    },
+    "drugPackage": {
+      "name": "esomeprazole magnesium",
+      "dosageName": "esomeprazole magnesium GRA 10MG DR",
+      "searchName": "esomeprazole magnesium",
+      "genericAlternative": "null",
+      "optionalMinDosages": "null",
+      "type": "Generic",
+      "quantity": "",
+      "freq": ""
+    },
+    "flexcareCarrierMap": {
+      "address": "123 Main Street",
+      "phone": "(800) 379-9050",
+      "snpPhone": "(800) 379-9060",
+      "cityState": "Los Angeles, CA 90010",
+      "name": "DRX Demo",
+      "url": "connecture.com"
+    },
+
+    "ssoAgentUsername" : "SSOUsTest123454",
+    "ssoAgentExternalUserUd" : "SSOUsTest123externl",
+    "ssoUrlSuffixForExternalId" : "/o/saml2/agent",
+    "ssoUrlClassicSuffixForUsername" : "/o/saml2/agent:classic",
+    "autoProvisionUrlSuffix" : "/o/saml2/agent:provision"
+
+  },
+
+  "STAGE": {
+
+
+  }
+}
+
+

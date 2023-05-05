@@ -1,0 +1,17 @@
+[
+  {
+    "PharmacyIDType": 1,
+    "PharmacyID": "5641166",
+    "IsMailOrder": false
+  },
+  {
+    "PharmacyIDType": 1,
+    "PharmacyID": "5638955",
+    "IsMailOrder": false
+  },
+  {
+    "PharmacyIDType": 1,
+    "PharmacyID": "5649869",
+    "IsMailOrder": true
+  }
+]
